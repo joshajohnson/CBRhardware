@@ -1,0 +1,9 @@
+Qty,Value,Footprint
+1,10u,Capacitor_SMD:C_0805_2012Metric
+1,22u,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A
+16,LED,LED_SMD:LED_0805_2012Metric
+1,USB_B_Micro,VNA_Footprints:MicroUSB_Aliexpress
+16,220R,Resistor_SMD:R_0805_2012Metric
+1,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2
+1,SAO_Conn,SAO101:SAO
+1,MCP23017_SS,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm
