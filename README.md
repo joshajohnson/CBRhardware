@@ -20,6 +20,7 @@ I would highly suggest bring a mouse as well, as laying out board with a trackpa
 
 The [SAO101](/SAO101) folder contains resources which will be used on the night.
 
+### Future Events 
 
 |Date|Topic|
 |-|-|
