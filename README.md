@@ -12,11 +12,10 @@ If you have any suggestions about topics to discuss / changes to make, please ge
 ## 8/4/19 - Intro to KiCad / How to design a PCB
 
 A workshop going over how to design a printed circuit board in KiCad.  
+
 Aimed at beginners who haven't designed many boards before, or folks who have design experience but haven't used KiCad much.  
 
-Feel free to bring a laptop with [KiCad 5.1](http://kicad-pcb.org/download/) installed if you want to design along, otherwise just come along and ask questions as we go.
-
-I would highly suggest bring a mouse as well, as laying out board with a trackpad is not much fun. 
+Feel free to bring a laptop with [KiCad 5.1](http://kicad-pcb.org/download/) installed if you want to design along, otherwise just come along and ask questions as we go. I would highly suggest bringing a mouse as well, as laying out board with a trackpad is not much fun. 
 
 The [SAO101](/SAO101) folder contains resources which will be used on the night.
 
