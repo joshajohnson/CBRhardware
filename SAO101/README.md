@@ -8,7 +8,10 @@ I would also suggest bringing a mouse, as layout on a touchpad is not much fun.
 
 ### Resources:   
 [PCB Design Tutorial PDF](https://alternatezone.com/electronics/files/PCBDesignTutorialRevA.pdf)  
-[PCB Art](http://www.andrewsowa.com/blog/2017/3/19/creating-the-benchoff-nickel)  
 [Chris Gammell / Contextual Electronics](https://www.youtube.com/user/contextualelectronic/videos)  
+[Digikey KiCad Series](https://www.youtube.com/watch?v=vaCVh2SAZY4)  
 [Robert Feranec - Layout Videos](https://www.youtube.com/user/matarofe/videos)  
-[100 Hardware Design Tips](https://www.youtube.com/watch?v=ZpMvKJzZk90&list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO)
+[Review of PCB Layout](https://www.youtube.com/watch?v=HZVod5AFrVI)  
+[PCB Art](http://www.andrewsowa.com/blog/2017/3/19/creating-the-benchoff-nickel)  
+[100 Hardware Design Tips](https://www.youtube.com/watch?v=ZpMvKJzZk90&list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO)  
+[Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
