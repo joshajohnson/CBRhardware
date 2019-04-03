@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.3.17)  26 MAR 2019 08:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.18)  4 APR 2019 08:41
 entering extended mode
 **./SAO101.tex
 (SAO101.tex
@@ -110,8 +110,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen125
 \Gm@dimlist=\toks15
 
-("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/xelatex/xetexconf
-ig\geometry.cfg"))
+("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\ge
+ometry.cfg"))
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11
 .clo"
 File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
@@ -134,11 +134,11 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 g\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-de
-f\xetex.def"
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+f\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
@@ -205,27 +205,21 @@ ties\pgfkeysfiltered.code.tex"
 mlayer\pgf.cfg"
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
-Driver file for pgf: pgfsys-xetex.def
+Driver file for pgf: pgfsys-pdftex.def
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
-mlayer\pgfsys-xetex.def"
-File: pgfsys-xetex.def 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
-mlayer\pgfsys-dvipdfmx.def"
-File: pgfsys-dvipdfmx.def 2019/02/02 v3.1.1 (3.1.1)
+mlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
-)
-\pgfsys@objnum=\count113
 )))
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfsyssoftpath@smallbuffer@items=\count114
-\pgfsyssoftpath@bigbuffer@items=\count115
+\pgfsyssoftpath@smallbuffer@items=\count113
+\pgfsyssoftpath@bigbuffer@items=\count114
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsysprotocol.code.tex"
@@ -239,8 +233,9 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 g\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -262,7 +257,7 @@ pgfmathutil.code.tex")
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
 pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen138
-\pgfmath@count=\count116
+\pgfmath@count=\count115
 \pgfmath@box=\box36
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
@@ -288,7 +283,7 @@ pgfmathfunctions.misc.code.tex")
 pgfmathfunctions.integerarithmetics.code.tex")))
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
 pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count117
+\c@pgfmathroundto@lastzeros=\count116
 ))
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepoints.code.tex"
@@ -326,7 +321,7 @@ File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
-\pgf@picture@serial@count=\count118
+\pgf@picture@serial@count=\count117
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoregraphicstate.code.tex"
@@ -361,7 +356,7 @@ File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 layer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen162
-\pgf@sys@shading@range@num=\count119
+\pgf@sys@shading@range@num=\count118
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreimage.code.tex"
@@ -391,8 +386,8 @@ File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
 es\xxcolor.sty"
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count120
-\XC@countmixins=\count121
+\XC@nummixins=\count119
+\XC@countmixins=\count120
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
 atbegshi.sty"
@@ -432,10 +427,9 @@ Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -460,14 +454,16 @@ options.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen163
-\Hy@linkcounter=\count122
-\Hy@pagecounter=\count123
+\Hy@linkcounter=\count121
+\Hy@pagecounter=\count122
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd
 1enc.def"
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count124
+\Hy@SavedSpaceFactor=\count123
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hy
 perref.cfg"
@@ -483,7 +479,7 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count125
+\c@Hy@tempcnt=\count124
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty
 "
@@ -492,7 +488,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen164
-\Fld@menulength=\count126
+\Fld@menulength=\count125
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -504,32 +500,19 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count127
+\Hy@abspage=\count126
 
 
 Package hyperref Message: Stopped early.
 
 )
-Package hyperref Info: Driver (autodetected): hxetex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hx
-etex.def"
-File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
-
-("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pu
-enc.def"
-File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
-)
-("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
-stringenc.sty"
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box41
-\c@Hy@AnnotLevel=\count128
-\HyField@AnnotCount=\count129
-\Fld@listcount=\count130
-\c@bookmark@seq@number=\count131
+("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hp
+dftex.def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count127
+\c@bookmark@seq@number=\count128
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\re
 runfilecheck.sty"
@@ -537,11 +520,6 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
-se-ascii-print.def"
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaserequires.sty"
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
@@ -581,36 +559,36 @@ erbasemisc.sty")
 erbasetwoscreens.sty")
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaseoverlay.sty"
-\beamer@argscount=\count132
+\beamer@argscount=\count129
 \beamer@lastskipcover=\skip44
-\beamer@trivlistdepth=\count133
+\beamer@trivlistdepth=\count130
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasetitle.sty")
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasesection.sty"
-\c@lecture=\count134
-\c@part=\count135
-\c@section=\count136
-\c@subsection=\count137
-\c@subsubsection=\count138
+\c@lecture=\count131
+\c@part=\count132
+\c@section=\count133
+\c@subsection=\count134
+\c@subsubsection=\count135
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaseframe.sty"
-\beamer@framebox=\box42
-\beamer@frametitlebox=\box43
-\beamer@zoombox=\box44
-\beamer@zoomcount=\count139
-\beamer@zoomframecount=\count140
+\beamer@framebox=\box41
+\beamer@frametitlebox=\box42
+\beamer@zoombox=\box43
+\beamer@zoomcount=\count136
+\beamer@zoomframecount=\count137
 \beamer@frametextheight=\dimen167
-\c@subsectionslide=\count141
+\c@subsectionslide=\count138
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks27
 \framewidth=\dimen168
-\c@framenumber=\count142
+\c@framenumber=\count139
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaseverbatim.sty"
@@ -618,21 +596,21 @@ erbaseverbatim.sty"
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaseframesize.sty"
-\beamer@splitbox=\box45
-\beamer@autobreakcount=\count143
+\beamer@splitbox=\box44
+\beamer@autobreakcount=\count140
 \beamer@autobreaklastheight=\dimen169
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaseframecomponents.sty"
-\beamer@footins=\box46
+\beamer@footins=\box45
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasecolor.sty")
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasenotes.sty"
-\beamer@frameboxcopy=\box47
+\beamer@frameboxcopy=\box46
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasetoc.sty")
@@ -644,11 +622,11 @@ erbasetemplates.sty"
 erbaseauxtemplates.sty"
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaseboxes.sty"
-\bmb@box=\box48
-\bmb@colorbox=\box49
-\bmb@boxshadow=\box50
-\bmb@boxshadowball=\box51
-\bmb@boxshadowballlarge=\box52
+\bmb@box=\box47
+\bmb@colorbox=\box48
+\bmb@boxshadow=\box49
+\bmb@boxshadowball=\box50
+\bmb@boxshadowballlarge=\box51
 \bmb@temp=\dimen170
 \bmb@dima=\dimen171
 \bmb@dimb=\dimen172
@@ -663,8 +641,8 @@ rate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
-\c@figure=\count144
-\c@table=\count145
+\c@figure=\count141
+\c@table=\count142
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
@@ -700,30 +678,30 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 opn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count146
+\inf@bad=\count143
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count147
-\leftroot@=\count148
+\uproot@=\count144
+\leftroot@=\count145
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count149
-\DOTSCASE@=\count150
+\classnum@=\count146
+\DOTSCASE@=\count147
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
+\Mathstrutbox@=\box52
+\strutbox@=\box53
 \big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count151
-\c@MaxMatrixCols=\count152
+\macc@depth=\count148
+\c@MaxMatrixCols=\count149
 \dotsspace@=\muskip11
-\c@parentequation=\count153
-\dspbrk@lvl=\count154
+\c@parentequation=\count150
+\dspbrk@lvl=\count151
 \tag@help=\toks33
-\row@=\count155
-\column@=\count156
-\maxfields@=\count157
+\row@=\count152
+\column@=\count153
+\maxfields@=\count154
 \andhelp@=\toks34
 \eqnshift@=\dimen179
 \alignsep@=\dimen180
@@ -751,7 +729,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip56
 \dth@everypar=\toks42
 )
-\c@theorem=\count158
+\c@theorem=\count155
 )
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasethemes.sty"))
@@ -791,12 +769,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen194
 \cmidrulekern=\dimen195
 \defaultaddspace=\dimen196
-\@cmidla=\count159
-\@cmidlb=\count160
+\@cmidla=\count156
+\@cmidlb=\count157
 \@aboverulesep=\dimen197
 \@belowrulesep=\dimen198
-\@thisruleclass=\count161
-\@lastruleclass=\count162
+\@thisruleclass=\count158
+\@lastruleclass=\count159
 \@thisrulewidth=\dimen199
 ) (SAO101.aux)
 \openout1 = `SAO101.aux'.
@@ -809,17 +787,14 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
 
+*geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -827,14 +802,14 @@ LaTeX Font Info:    ... okay on input line 96.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95pt, 342.29536pt, 10.95pt)
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=342.29536pt
+* \textwidth=342.2953pt
 * \textheight=244.6939pt
-* \oddsidemargin=-61.31999pt
-* \evensidemargin=-61.31999pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -853,7 +828,37 @@ LaTeX Font Info:    ... okay on input line 96.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-ABD: EveryShipout initializing macros
+
+("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
+\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count160
+\scratchdimen=\dimen256
+\scratchbox=\box54
+\nofMPsegments=\count161
+\nofMParguments=\count162
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count163
+\MPscratchDim=\dimen257
+\MPnumerator=\count164
+\makeMPintoPDFobject=\count165
+\everyMPtoPDFconversion=\toks44
+)
+("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\ep
+stopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\gr
+fext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
 Package hyperref Info: Link coloring OFF on input line 96.
 
@@ -865,7 +870,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count163
+\c@section@level=\count166
 )
 LaTeX Info: Redefining \ref on input line 96.
 LaTeX Info: Redefining \pageref on input line 96.
@@ -881,41 +886,51 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 96.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 96.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/bx/n on input line 96.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/bx/n on input line 96.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 96.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 96.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 96.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 96.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 96.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 96.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 96.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 96.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 96.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 96.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 96.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 96.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/bx/it on input line 96.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmr/bx/n on input line 96.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmss/bx/n --> TU/lmss/bx/n on input line 96.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 96.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/bx/it on input line 96.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/bx/n on input line 96.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 96.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 96.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 9
+6.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
+96.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 96.
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
 translator-basic-dictionary-English.dict"
@@ -940,66 +955,100 @@ Dictionary: translator-numbers-dictionary, Language: English
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
 translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
-) (SAO101.nav)
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 100.
- [1
+) (SAO101.nav) [1
 
-] [2
-
-]
-File: sao.png Graphic file (type bmp)
-<sao.png>
-LaTeX Font Info:    Try loading font information for U+msa on input line 144.
+{C:/Users/Josh Johnson/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
 sa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 144.
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
 
 ("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
 sb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 144.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 144.
-File: LSAO.jpg Graphic file (type bmp)
-<LSAO.jpg>
-File: sao69.png Graphic file (type bmp)
-<sao69.png>
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 120.
+
+("C:\Users\Josh Johnson\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathacc
+ent\ot1mathkerncmss.fd"
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+) [2
+
+]
+<shittyadd-ons.png, id=85, 803.0pt x 401.5pt>
+File: shittyadd-ons.png Graphic file (type png)
+<use shittyadd-ons.png>
+Package pdftex.def Info: shittyadd-ons.png  used on input line 149.
+(pdftex.def)             Requested size: 171.14764pt x 85.5734pt.
+<bogan.jpg, id=87, 937.25156pt x 340.27126pt>
+File: bogan.jpg Graphic file (type jpg)
+<use bogan.jpg>
+Package pdftex.def Info: bogan.jpg  used on input line 149.
+(pdftex.def)             Requested size: 171.14764pt x 62.13403pt.
+<hackerchix.jpg, id=88, 868.74562pt x 681.29532pt>
+File: hackerchix.jpg Graphic file (type jpg)
+<use hackerchix.jpg>
+Package pdftex.def Info: hackerchix.jpg  used on input line 149.
+(pdftex.def)             Requested size: 82.15274pt x 64.42224pt.
+<joshsao.jpg, id=89, 575.14874pt x 852.93657pt>
+File: joshsao.jpg Graphic file (type jpg)
+<use joshsao.jpg>
+Package pdftex.def Info: joshsao.jpg  used on input line 149.
+(pdftex.def)             Requested size: 82.15274pt x 121.83104pt.
  [3
 
-]
-File: shittyadd-ons.png Graphic file (type bmp)
-<shittyadd-ons.png>
-File: bogan.jpg Graphic file (type bmp)
-<bogan.jpg>
-File: hackerchix.jpg Graphic file (type bmp)
-<hackerchix.jpg>
-File: joshsao.jpg Graphic file (type bmp)
-<joshsao.jpg>
+ <./shittyadd-ons.png> <./bogan.jpg> <./hackerchix.jpg> <./joshsao.jpg>]
+<sao.png, id=117, 511.9125pt x 511.9125pt>
+File: sao.png Graphic file (type png)
+<use sao.png>
+Package pdftex.def Info: sao.png  used on input line 175.
+(pdftex.def)             Requested size: 101.66156pt x 101.66205pt.
+<LSAO.jpg, id=118, 416.55624pt x 357.335pt>
+File: LSAO.jpg Graphic file (type jpg)
+<use LSAO.jpg>
+Package pdftex.def Info: LSAO.jpg  used on input line 175.
+(pdftex.def)             Requested size: 101.66156pt x 87.20705pt.
+<sao69.png, id=119, 290.08376pt x 401.5pt>
+File: sao69.png Graphic file (type png)
+<use sao69.png>
+Package pdftex.def Info: sao69.png  used on input line 175.
+(pdftex.def)             Requested size: 101.66156pt x 140.70476pt.
  [4
 
-]
-File: mcp23071pinout.PNG Graphic file (type bmp)
-<mcp23071pinout.PNG>
-File: mcpFunctional.png Graphic file (type bmp)
-<mcpFunctional.png>
- [5
+ <./sao.png (PNG copy)> <./LSAO.jpg> <./sao69.png>]
+<mcp23071pinout.PNG, id=147, 222.07968pt x 188.20313pt>
+File: mcp23071pinout.PNG Graphic file (type png)
+<use mcp23071pinout.PNG>
+Package pdftex.def Info: mcp23071pinout.PNG  used on input line 200.
+(pdftex.def)             Requested size: 133.49495pt x 113.1295pt.
+<mcpFunctional.png, id=148, 544.28343pt x 291.33844pt>
+File: mcpFunctional.png Graphic file (type png)
+<use mcpFunctional.png>
+Package pdftex.def Info: mcpFunctional.png  used on input line 200.
+(pdftex.def)             Requested size: 205.37926pt x 109.9318pt.
 
-] [6
+[5
+
+ <./mcp23071pinout.PNG> <./mcpFunctional.png>] [6
 
 ]
-File: pcbManufacture.png Graphic file (type bmp)
-<pcbManufacture.png>
+<pcbManufacture.png, id=203, 885.3075pt x 610.53094pt>
+File: pcbManufacture.png Graphic file (type png)
+<use pcbManufacture.png>
+Package pdftex.def Info: pcbManufacture.png  used on input line 219.
+(pdftex.def)             Requested size: 308.06367pt x 212.45001pt.
  [7
 
-] [8
+ <./pcbManufacture.png>] [8
 
 ] [9
+
+] [10
 
 ]
 \tf@nav=\write6
@@ -1011,21 +1060,31 @@ File: pcbManufacture.png Graphic file (type bmp)
 \tf@snm=\write8
 \openout8 = `SAO101.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (SAO101.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `SAO101.out' has not changed.
-(rerunfilecheck)             Checksum: 89277740DAE218043CF25B598A8B716C.
+(rerunfilecheck)             Checksum: F4991C8F7B0599EE6F32CCE1B5E1F493;54.
  ) 
 Here is how much of TeX's memory you used:
- 20332 strings out of 427748
- 364888 string characters out of 3145689
- 448978 words of memory out of 3000000
- 23979 multiletter control sequences out of 15000+200000
- 8733 words of font info for 43 fonts, out of 3000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 56i,15n,59p,775b,599s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 17363 strings out of 492946
+ 340633 string characters out of 3123156
+ 406880 words of memory out of 3000000
+ 20828 multiletter control sequences out of 15000+200000
+ 11214 words of font info for 41 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,15n,59p,775b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Josh Johnson/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmss10.pfb><C:/Users/Josh Johnson/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Josh Johnson/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Josh Joh
+nson/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b>
+Output written on SAO101.pdf (10 pages, 1765454 bytes).
+PDF statistics:
+ 332 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on SAO101.pdf (9 pages).
