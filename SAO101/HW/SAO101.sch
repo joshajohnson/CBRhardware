@@ -952,4 +952,6 @@ F 3 "" H 5150 2000 50  0001 C CNN
 	1    5150 2000
 	1    0    0    -1  
 $EndComp
+Text Notes 4150 4000 0    50   ~ 0
+I2C Addr: 0x20
 $EndSCHEMATC
