@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5CA84547
-P 4350 5450
-F 0 "A1" H 4000 6400 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" V 4350 5400 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 4500 4500 50  0001 L CNN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 4350 4450 50  0001 C CNN
-	1    4350 5450
+P 3650 5450
+F 0 "A1" H 3300 6400 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" V 3650 5400 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 3800 4500 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3650 4450 50  0001 C CNN
+	1    3650 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -59,25 +59,25 @@ F 3 "~" H 1000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 6450 4350 6500
+	3650 6450 3650 6500
 Wire Wire Line
-	4350 6500 4400 6500
+	3650 6500 3700 6500
 Wire Wire Line
-	4450 6500 4450 6450
+	3750 6500 3750 6450
 Wire Wire Line
-	4400 6500 4400 6550
-Connection ~ 4400 6500
+	3700 6500 3700 6550
+Connection ~ 3700 6500
 Wire Wire Line
-	4400 6500 4450 6500
+	3700 6500 3750 6500
 $Comp
 L power:GND #PWR010
 U 1 1 5CA8D07C
-P 4400 6550
-F 0 "#PWR010" H 4400 6300 50  0001 C CNN
-F 1 "GND" H 4405 6377 50  0000 C CNN
-F 2 "" H 4400 6550 50  0001 C CNN
-F 3 "" H 4400 6550 50  0001 C CNN
-	1    4400 6550
+P 3700 6550
+F 0 "#PWR010" H 3700 6300 50  0001 C CNN
+F 1 "GND" H 3705 6377 50  0000 C CNN
+F 2 "" H 3700 6550 50  0001 C CNN
+F 3 "" H 3700 6550 50  0001 C CNN
+	1    3700 6550
 	1    0    0    -1  
 $EndComp
 $Bitmap
@@ -2403,33 +2403,29 @@ C2 34 15 F6 88 C5 EE BD D7 6B E8 82 C4 02 47 40 10 75 C4 78 F4 08 01 41 4C 40 54
 AE 42 60 82 
 EndData
 $EndBitmap
-Text Label 3800 4950 2    50   ~ 0
+Text Label 3100 4950 2    50   ~ 6
 TX
-Text Label 3800 4850 2    50   ~ 0
+Text Label 3100 4850 2    50   ~ 6
 RX
 Wire Wire Line
-	3800 4850 3850 4850
+	3100 4850 3150 4850
 Wire Wire Line
-	3800 4950 3850 4950
-Text Label 4900 5850 0    50   ~ 0
+	3100 4950 3150 4950
+Text Label 5400 5850 0    50   ~ 6
 SDA
-Text Label 4900 5950 0    50   ~ 0
+Text Label 5400 5950 0    50   ~ 6
 SCL
 Wire Wire Line
-	4850 5850 4900 5850
+	3150 5850 3100 5850
 Wire Wire Line
-	4850 5950 4900 5950
+	3150 6050 3100 6050
 Wire Wire Line
-	3850 5850 3800 5850
-Wire Wire Line
-	3850 6050 3800 6050
-Wire Wire Line
-	3850 6150 3800 6150
-Text Label 3800 6150 2    50   ~ 0
+	3150 6150 3100 6150
+Text Label 3100 6150 2    50   ~ 6
 SCK
-Text Label 3800 6050 2    50   ~ 0
+Text Label 3100 6050 2    50   ~ 6
 MISO
-Text Label 3800 5850 2    50   ~ 0
+Text Label 3100 5850 2    50   ~ 6
 SS
 $Comp
 L Device:LED_RAGB D1
@@ -2437,7 +2433,7 @@ U 1 1 5CA90E57
 P 3850 3200
 F 0 "D1" H 3850 3697 50  0000 C CNN
 F 1 "LED_RAGB" H 3850 3606 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 3850 3150 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB" H 3850 3150 50  0001 C CNN
 F 3 "~" H 3850 3150 50  0001 C CNN
 	1    3850 3200
 	-1   0    0    -1  
@@ -2465,18 +2461,18 @@ F 3 "~" H 4950 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4550 4450 4550 4400
+	3850 4450 3850 4400
 Wire Wire Line
-	4450 4450 4450 4400
+	3750 4450 3750 4400
 $Comp
 L power:+5V #PWR012
 U 1 1 5CA963D5
-P 4550 4400
-F 0 "#PWR012" H 4550 4250 50  0001 C CNN
-F 1 "+5V" V 4550 4600 50  0000 C CNN
-F 2 "" H 4550 4400 50  0001 C CNN
-F 3 "" H 4550 4400 50  0001 C CNN
-	1    4550 4400
+P 3850 4400
+F 0 "#PWR012" H 3850 4250 50  0001 C CNN
+F 1 "+5V" V 3850 4600 50  0000 C CNN
+F 2 "" H 3850 4400 50  0001 C CNN
+F 3 "" H 3850 4400 50  0001 C CNN
+	1    3850 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7491,21 +7487,21 @@ AA 5F 00 00 00 00 80 F4 51 FD 02 00 00 00 00 A4 EF FF 82 56 78 B0 84 19 63 FF 00
 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Label 3800 5950 2    50   ~ 0
+Text Label 3100 5950 2    50   ~ 6
 MOSI
-Text Label 3800 5350 2    50   ~ 0
+Text Label 3100 5350 2    50   ~ 6
 LED_GREEN
-Text Label 3800 5450 2    50   ~ 0
+Text Label 3100 5450 2    50   ~ 6
 LED_BLUE
 Wire Wire Line
-	3800 5350 3850 5350
+	3100 5350 3150 5350
 Wire Wire Line
-	3800 5450 3850 5450
-Text Label 4700 3000 0    50   ~ 0
+	3100 5450 3150 5450
+Text Label 4700 3000 0    50   ~ 6
 LED_RED
-Text Label 4700 3200 0    50   ~ 0
+Text Label 4700 3200 0    50   ~ 6
 LED_GREEN
-Text Label 4700 3400 0    50   ~ 0
+Text Label 4700 3400 0    50   ~ 6
 LED_BLUE
 $Comp
 L Device:R R8
@@ -7568,18 +7564,18 @@ F 3 "~" H 4300 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4850 5550 4900 5550
+	4150 5550 4200 5550
 Wire Wire Line
-	4850 5650 4900 5650
+	4150 5650 4200 5650
 Wire Wire Line
-	4850 5750 4900 5750
-Text Label 4900 5450 0    50   ~ 0
+	4150 5750 4200 5750
+Text Label 4200 5750 0    50   ~ 6
 CHARILE_1
-Text Label 4900 5550 0    50   ~ 0
+Text Label 4200 5650 0    50   ~ 6
 CHARILE_2
-Text Label 4900 5650 0    50   ~ 0
+Text Label 4200 5450 0    50   ~ 6
 CHARILE_3
-Text Label 4900 5750 0    50   ~ 0
+Text Label 4200 5550 0    50   ~ 6
 CHARILE_4
 $Comp
 L Device:LED D6
@@ -7764,13 +7760,13 @@ F 3 "~" H 4150 1950 50  0001 C CNN
 	1    4150 1950
 	0    1    1    0   
 $EndComp
-Text Label 3900 1950 2    50   ~ 0
+Text Label 3900 1950 2    50   ~ 6
 CHARILE_4
-Text Label 3900 1650 2    50   ~ 0
+Text Label 3900 1650 2    50   ~ 6
 CHARILE_3
-Text Label 3900 1350 2    50   ~ 0
+Text Label 3900 1350 2    50   ~ 6
 CHARILE_2
-Text Label 3900 1050 2    50   ~ 0
+Text Label 3900 1050 2    50   ~ 6
 CHARILE_1
 Wire Wire Line
 	3900 1050 4000 1050
@@ -7781,54 +7777,54 @@ Wire Wire Line
 Wire Wire Line
 	3900 1950 4000 1950
 Wire Wire Line
-	3800 5950 3850 5950
+	3100 5950 3150 5950
 Wire Wire Line
-	3850 5050 3800 5050
-Text Label 3800 5050 2    50   ~ 0
+	3150 5050 3100 5050
+Text Label 3100 5050 2    50   ~ 6
 BUTTON_1
-Text Label 3800 5250 2    50   ~ 0
+Text Label 3100 5250 2    50   ~ 6
 BUTTON_2
 Wire Wire Line
-	4850 5450 4900 5450
+	4150 5450 4200 5450
 Wire Wire Line
-	3800 5250 3850 5250
+	3100 5250 3150 5250
 Wire Wire Line
-	3850 5150 3800 5150
-Text Label 3800 5150 2    50   ~ 0
+	3150 5150 3100 5150
+Text Label 3100 5150 2    50   ~ 6
 LED_RED
-Text Label 3800 5550 2    50   ~ 0
+Text Label 3100 5650 2    50   ~ 6
 ENCODER_A
-Text Label 3800 5650 2    50   ~ 0
+Text Label 3100 5550 2    50   ~ 6
 ENCODER_B
-Text Label 3800 5750 2    50   ~ 0
+Text Label 3100 5750 2    50   ~ 6
 ENCODER_SW
 Wire Wire Line
-	3800 5750 3850 5750
+	3100 5750 3150 5750
 Wire Wire Line
-	3800 5650 3850 5650
+	3100 5650 3150 5650
 Wire Wire Line
-	3800 5550 3850 5550
-NoConn ~ 4850 5250
-NoConn ~ 4850 4950
-NoConn ~ 4850 4850
-NoConn ~ 4850 6150
+	3100 5550 3150 5550
+NoConn ~ 4150 5250
+NoConn ~ 4150 4950
+NoConn ~ 4150 4850
+NoConn ~ 4150 6150
 Wire Wire Line
-	4850 6050 4900 6050
-Text Label 4900 6050 0    50   ~ 0
+	4150 6050 4200 6050
+Text Label 4200 6050 0    50   ~ 6
 POT
 Wire Wire Line
 	7250 1550 7200 1550
-Text Label 7200 1550 2    50   ~ 0
+Text Label 7200 1550 2    50   ~ 6
 POT
 $Comp
 L power:+3V3 #PWR011
 U 1 1 5CA9611F
-P 4450 4400
-F 0 "#PWR011" H 4450 4250 50  0001 C CNN
-F 1 "+3V3" V 4450 4600 50  0000 C CNN
-F 2 "" H 4450 4400 50  0001 C CNN
-F 3 "" H 4450 4400 50  0001 C CNN
-	1    4450 4400
+P 3750 4400
+F 0 "#PWR011" H 3750 4250 50  0001 C CNN
+F 1 "+3V3" V 3750 4600 50  0000 C CNN
+F 2 "" H 3750 4400 50  0001 C CNN
+F 3 "" H 3750 4400 50  0001 C CNN
+	1    3750 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -7923,17 +7919,17 @@ Connection ~ 2750 1500
 Wire Wire Line
 	1400 1500 1550 1500
 Connection ~ 1400 1500
-Text Label 1550 1500 0    50   ~ 0
+Text Label 1550 1500 0    50   ~ 6
 BUTTON_1
-Text Label 2900 1500 0    50   ~ 0
+Text Label 2900 1500 0    50   ~ 6
 BUTTON_2
-Text Notes 3900 4000 0    100  ~ 0
+Text Notes 3200 4000 0    100  ~ 6
 Arduino Nano
-Text Notes 1350 950  0    100  ~ 0
+Text Notes 1350 950  0    100  ~ 6
 Push Buttons
-Text Notes 1250 2600 0    100  ~ 0
+Text Notes 1500 2500 0    100  ~ 6
 Rotary Encoder
-Text Label 2650 3200 0    50   ~ 0
+Text Label 2650 3200 0    50   ~ 6
 ENCODER_SW
 $Comp
 L power:GND #PWR06
@@ -7981,43 +7977,39 @@ Wire Wire Line
 	2550 3000 2550 2800
 Wire Wire Line
 	2300 3000 2550 3000
-Wire Wire Line
-	1050 3100 1700 3100
 $Comp
 L power:GND #PWR02
 U 1 1 5CB0046A
-P 1050 3200
-F 0 "#PWR02" H 1050 2950 50  0001 C CNN
-F 1 "GND" H 1055 3027 50  0000 C CNN
-F 2 "" H 1050 3200 50  0001 C CNN
-F 3 "" H 1050 3200 50  0001 C CNN
-	1    1050 3200
+P 1550 3300
+F 0 "#PWR02" H 1550 3050 50  0001 C CNN
+F 1 "GND" H 1555 3127 50  0000 C CNN
+F 2 "" H 1550 3300 50  0001 C CNN
+F 3 "" H 1550 3300 50  0001 C CNN
+	1    1550 3300
 	1    0    0    -1  
 $EndComp
-Text Label 1600 3200 2    50   ~ 0
+Text Label 1000 3200 2    50   ~ 6
 ENCODER_B
-Text Label 1600 3000 2    50   ~ 0
+Text Label 1000 3000 2    50   ~ 6
 ENCODER_A
 Wire Wire Line
-	1700 3200 1600 3200
-Wire Wire Line
-	1700 3000 1600 3000
+	1700 3000 1050 3000
 $Comp
 L Device:Rotary_Encoder_Switch SW2
 U 1 1 5CA85DA7
 P 2000 3100
-F 0 "SW2" H 2000 3467 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 2000 3376 50  0000 C CNN
+F 0 "SW2" H 2000 3450 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 2050 3350 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 1850 3260 50  0001 C CNN
 F 3 "~" H 2000 3360 50  0001 C CNN
 	1    2000 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 6700 1000 0    100  ~ 0
+Text Notes 6700 1000 0    100  ~ 6
 10K Potentiometer
-Text Notes 3600 2600 0    100  ~ 0
+Text Notes 3600 2600 0    100  ~ 6
 RGB LED\nCommon Anode (+)\n
-Text Notes 4350 800  0    100  ~ 0
+Text Notes 4350 800  0    100  ~ 6
 Charlieplexed LEDs
 NoConn ~ 6200 3450
 NoConn ~ 6200 3050
@@ -8025,9 +8017,9 @@ Wire Wire Line
 	6200 3250 6250 3250
 Wire Wire Line
 	6200 3150 6250 3150
-Text Label 6250 3250 0    50   ~ 0
+Text Label 6250 3250 0    50   ~ 6
 RX
-Text Label 6250 3150 0    50   ~ 0
+Text Label 6250 3150 0    50   ~ 6
 TX
 $Comp
 L power:+5V #PWR014
@@ -8055,7 +8047,7 @@ F 3 "" H 6250 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 3550 6250 3550
-Text Notes 5800 2650 0    100  ~ 0
+Text Notes 5800 2650 0    100  ~ 6
 Serial Header
 $Comp
 L Connector:Conn_01x06_Male J2
@@ -8074,13 +8066,13 @@ Wire Wire Line
 	7600 3300 7650 3300
 Wire Wire Line
 	7600 3400 7650 3400
-Text Label 7650 3400 0    50   ~ 0
+Text Label 7650 3100 0    50   ~ 6
 SCK
-Text Label 7650 3300 0    50   ~ 0
+Text Label 7650 3200 0    50   ~ 6
 MISO
-Text Label 7650 3100 0    50   ~ 0
+Text Label 7650 3400 0    50   ~ 6
 SS
-Text Label 7650 3200 0    50   ~ 0
+Text Label 7650 3300 0    50   ~ 6
 MOSI
 Wire Wire Line
 	7650 3200 7600 3200
@@ -8129,9 +8121,9 @@ F 3 "~" H 6000 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 3550 6250 3600
-Text Notes 7200 2650 0    100  ~ 0
+Text Notes 7200 2650 0    100  ~ 6
 SPI Connection
-Text Notes 8700 1000 0    100  ~ 0
+Text Notes 8700 1000 0    100  ~ 6
 Shitty Add-On
 Wire Wire Line
 	8850 1450 8750 1450
@@ -8146,17 +8138,6 @@ Wire Wire Line
 Wire Wire Line
 	9500 1600 9550 1600
 $Comp
-L power:+5V #PWR019
-U 1 1 5CA9C882
-P 8750 1350
-F 0 "#PWR019" H 8750 1200 50  0001 C CNN
-F 1 "+5V" H 8750 1500 50  0000 C CNN
-F 2 "" H 8750 1350 50  0001 C CNN
-F 3 "" H 8750 1350 50  0001 C CNN
-	1    8750 1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR020
 U 1 1 5CA9CC7D
 P 8750 1700
@@ -8167,20 +8148,18 @@ F 3 "" H 8750 1700 50  0001 C CNN
 	1    8750 1700
 	1    0    0    -1  
 $EndComp
-Text Label 9550 1450 0    50   ~ 0
+Text Label 9550 1450 0    50   ~ 6
 SDA
-Text Label 9550 1600 0    50   ~ 0
+Text Label 9550 1600 0    50   ~ 6
 SCL
-Text Notes 8950 1900 0    50   ~ 0
-WARNING: \n5V on header not 3V3
-Text Notes 8750 2650 0    100  ~ 0
+Text Notes 8750 2650 0    100  ~ 6
 I2C Connection
 $Comp
 L Connector:Conn_01x04_Male J3
 U 1 1 5CAB79C6
 P 8750 3100
-F 0 "J3" H 8858 3381 50  0000 C CNN
-F 1 "I2C Header" H 8858 3290 50  0000 C CNN
+F 0 "J3" H 8750 3450 50  0000 C CNN
+F 1 "I2C Header" H 8900 3350 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8750 3100 50  0001 C CNN
 F 3 "~" H 8750 3100 50  0001 C CNN
 	1    8750 3100
@@ -8216,17 +8195,15 @@ F 3 "" H 9250 3350 50  0001 C CNN
 	1    9250 3350
 	1    0    0    -1  
 $EndComp
-Text Label 9000 3100 0    50   ~ 0
+Text Label 9000 3100 0    50   ~ 6
 SDA
-Text Label 9000 3200 0    50   ~ 0
+Text Label 9000 3200 0    50   ~ 6
 SCL
 Wire Wire Line
 	8950 3100 9000 3100
 Wire Wire Line
 	8950 3200 9000 3200
-Wire Wire Line
-	1050 3100 1050 3200
-NoConn ~ 4250 4450
+NoConn ~ 3550 4450
 $Comp
 L uC101:SAO_Conn J4
 U 1 1 5CAFB5CA
@@ -8236,6 +8213,143 @@ F 1 "SAO_Conn" H 9175 1784 50  0000 C CNN
 F 2 "uC101:SAO" H 9200 1750 50  0001 C CNN
 F 3 "" H 9200 1750 50  0001 C CNN
 	1    9200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5CA944C6
+P 5100 5650
+F 0 "R12" H 5170 5696 50  0000 L CNN
+F 1 "4K7" H 5170 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 5650 50  0001 C CNN
+F 3 "~" H 5100 5650 50  0001 C CNN
+	1    5100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5CA94D9B
+P 4800 5650
+F 0 "R11" H 4870 5696 50  0000 L CNN
+F 1 "4K7" H 4870 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4730 5650 50  0001 C CNN
+F 3 "~" H 4800 5650 50  0001 C CNN
+	1    4800 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5850 4800 5850
+Wire Wire Line
+	4150 5950 5100 5950
+Wire Wire Line
+	4800 5800 4800 5850
+Connection ~ 4800 5850
+Wire Wire Line
+	4800 5850 5400 5850
+Wire Wire Line
+	5100 5800 5100 5950
+Connection ~ 5100 5950
+Wire Wire Line
+	4800 5500 4800 5450
+Wire Wire Line
+	5100 5500 5100 5450
+$Comp
+L power:+5V #PWR09
+U 1 1 5CAB4316
+P 4800 5450
+F 0 "#PWR09" H 4800 5300 50  0001 C CNN
+F 1 "+5V" H 4800 5600 50  0000 C CNN
+F 2 "" H 4800 5450 50  0001 C CNN
+F 3 "" H 4800 5450 50  0001 C CNN
+	1    4800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR023
+U 1 1 5CAB4A0E
+P 5100 5450
+F 0 "#PWR023" H 5100 5300 50  0001 C CNN
+F 1 "+5V" H 5100 5600 50  0000 C CNN
+F 2 "" H 5100 5450 50  0001 C CNN
+F 3 "" H 5100 5450 50  0001 C CNN
+	1    5100 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5950 5400 5950
+Wire Wire Line
+	1000 3200 1350 3200
+Wire Wire Line
+	1550 3100 1550 3300
+Wire Wire Line
+	1550 3100 1700 3100
+$Comp
+L Device:R R13
+U 1 1 5CAD3B69
+P 1050 2750
+F 0 "R13" H 1120 2796 50  0000 L CNN
+F 1 "10K" H 1120 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 980 2750 50  0001 C CNN
+F 3 "~" H 1050 2750 50  0001 C CNN
+	1    1050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5CAD4101
+P 1350 2750
+F 0 "R14" H 1420 2796 50  0000 L CNN
+F 1 "10K" H 1420 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1280 2750 50  0001 C CNN
+F 3 "~" H 1350 2750 50  0001 C CNN
+	1    1350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2900 1050 3000
+Connection ~ 1050 3000
+Wire Wire Line
+	1050 3000 1000 3000
+Wire Wire Line
+	1350 2900 1350 3200
+Connection ~ 1350 3200
+Wire Wire Line
+	1350 3200 1700 3200
+$Comp
+L power:+5V #PWR025
+U 1 1 5CADDD12
+P 1350 2550
+F 0 "#PWR025" H 1350 2400 50  0001 C CNN
+F 1 "+5V" H 1365 2723 50  0000 C CNN
+F 2 "" H 1350 2550 50  0001 C CNN
+F 3 "" H 1350 2550 50  0001 C CNN
+	1    1350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR024
+U 1 1 5CADE114
+P 1050 2550
+F 0 "#PWR024" H 1050 2400 50  0001 C CNN
+F 1 "+5V" H 1065 2723 50  0000 C CNN
+F 2 "" H 1050 2550 50  0001 C CNN
+F 3 "" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2550 1050 2600
+Wire Wire Line
+	1350 2550 1350 2600
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5CAE945A
+P 8750 1350
+F 0 "#PWR0101" H 8750 1200 50  0001 C CNN
+F 1 "+3V3" H 8750 1500 50  0000 C CNN
+F 2 "" H 8750 1350 50  0001 C CNN
+F 3 "" H 8750 1350 50  0001 C CNN
+	1    8750 1350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
