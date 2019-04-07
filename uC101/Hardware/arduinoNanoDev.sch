@@ -2403,17 +2403,17 @@ C2 34 15 F6 88 C5 EE BD D7 6B E8 82 C4 02 47 40 10 75 C4 78 F4 08 01 41 4C 40 54
 AE 42 60 82 
 EndData
 $EndBitmap
-Text Label 3100 4950 2    50   ~ 6
+Text Label 3100 4950 2    50   ~ 0
 TX
-Text Label 3100 4850 2    50   ~ 6
+Text Label 3100 4850 2    50   ~ 0
 RX
 Wire Wire Line
 	3100 4850 3150 4850
 Wire Wire Line
 	3100 4950 3150 4950
-Text Label 5400 5850 0    50   ~ 6
+Text Label 5400 5850 0    50   ~ 0
 SDA
-Text Label 5400 5950 0    50   ~ 6
+Text Label 5400 5950 0    50   ~ 0
 SCL
 Wire Wire Line
 	3150 5850 3100 5850
@@ -2421,11 +2421,11 @@ Wire Wire Line
 	3150 6050 3100 6050
 Wire Wire Line
 	3150 6150 3100 6150
-Text Label 3100 6150 2    50   ~ 6
+Text Label 3100 6150 2    50   ~ 0
 SCK
-Text Label 3100 6050 2    50   ~ 6
+Text Label 3100 6050 2    50   ~ 0
 MISO
-Text Label 3100 5850 2    50   ~ 6
+Text Label 3100 5850 2    50   ~ 0
 SS
 $Comp
 L Device:LED_RAGB D1
@@ -7487,21 +7487,21 @@ AA 5F 00 00 00 00 80 F4 51 FD 02 00 00 00 00 A4 EF FF 82 56 78 B0 84 19 63 FF 00
 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Label 3100 5950 2    50   ~ 6
+Text Label 3100 5950 2    50   ~ 0
 MOSI
-Text Label 3100 5350 2    50   ~ 6
+Text Label 3100 5350 2    50   ~ 0
 LED_GREEN
-Text Label 3100 5450 2    50   ~ 6
+Text Label 3100 5450 2    50   ~ 0
 LED_BLUE
 Wire Wire Line
 	3100 5350 3150 5350
 Wire Wire Line
 	3100 5450 3150 5450
-Text Label 4700 3000 0    50   ~ 6
+Text Label 4700 3000 0    50   ~ 0
 LED_RED
-Text Label 4700 3200 0    50   ~ 6
+Text Label 4700 3200 0    50   ~ 0
 LED_GREEN
-Text Label 4700 3400 0    50   ~ 6
+Text Label 4700 3400 0    50   ~ 0
 LED_BLUE
 $Comp
 L Device:R R8
@@ -7569,13 +7569,13 @@ Wire Wire Line
 	4150 5650 4200 5650
 Wire Wire Line
 	4150 5750 4200 5750
-Text Label 4200 5750 0    50   ~ 6
+Text Label 4200 5750 0    50   ~ 0
 CHARILE_1
-Text Label 4200 5650 0    50   ~ 6
+Text Label 4200 5650 0    50   ~ 0
 CHARILE_2
-Text Label 4200 5450 0    50   ~ 6
+Text Label 4200 5450 0    50   ~ 0
 CHARILE_3
-Text Label 4200 5550 0    50   ~ 6
+Text Label 4200 5550 0    50   ~ 0
 CHARILE_4
 $Comp
 L Device:LED D6
@@ -7760,13 +7760,13 @@ F 3 "~" H 4150 1950 50  0001 C CNN
 	1    4150 1950
 	0    1    1    0   
 $EndComp
-Text Label 3900 1950 2    50   ~ 6
+Text Label 3900 1950 2    50   ~ 0
 CHARILE_4
-Text Label 3900 1650 2    50   ~ 6
+Text Label 3900 1650 2    50   ~ 0
 CHARILE_3
-Text Label 3900 1350 2    50   ~ 6
+Text Label 3900 1350 2    50   ~ 0
 CHARILE_2
-Text Label 3900 1050 2    50   ~ 6
+Text Label 3900 1050 2    50   ~ 0
 CHARILE_1
 Wire Wire Line
 	3900 1050 4000 1050
@@ -7780,9 +7780,9 @@ Wire Wire Line
 	3100 5950 3150 5950
 Wire Wire Line
 	3150 5050 3100 5050
-Text Label 3100 5050 2    50   ~ 6
+Text Label 3100 5050 2    50   ~ 0
 BUTTON_1
-Text Label 3100 5250 2    50   ~ 6
+Text Label 3100 5250 2    50   ~ 0
 BUTTON_2
 Wire Wire Line
 	4150 5450 4200 5450
@@ -7790,13 +7790,13 @@ Wire Wire Line
 	3100 5250 3150 5250
 Wire Wire Line
 	3150 5150 3100 5150
-Text Label 3100 5150 2    50   ~ 6
+Text Label 3100 5150 2    50   ~ 0
 LED_RED
-Text Label 3100 5650 2    50   ~ 6
+Text Label 3100 5650 2    50   ~ 0
 ENCODER_A
-Text Label 3100 5550 2    50   ~ 6
+Text Label 3100 5550 2    50   ~ 0
 ENCODER_B
-Text Label 3100 5750 2    50   ~ 6
+Text Label 3100 5750 2    50   ~ 0
 ENCODER_SW
 Wire Wire Line
 	3100 5750 3150 5750
@@ -7810,11 +7810,11 @@ NoConn ~ 4150 4850
 NoConn ~ 4150 6150
 Wire Wire Line
 	4150 6050 4200 6050
-Text Label 4200 6050 0    50   ~ 6
+Text Label 4200 6050 0    50   ~ 0
 POT
 Wire Wire Line
 	7250 1550 7200 1550
-Text Label 7200 1550 2    50   ~ 6
+Text Label 7200 1550 2    50   ~ 0
 POT
 $Comp
 L power:+3V3 #PWR011
@@ -7919,17 +7919,17 @@ Connection ~ 2750 1500
 Wire Wire Line
 	1400 1500 1550 1500
 Connection ~ 1400 1500
-Text Label 1550 1500 0    50   ~ 6
+Text Label 1550 1500 0    50   ~ 0
 BUTTON_1
-Text Label 2900 1500 0    50   ~ 6
+Text Label 2900 1500 0    50   ~ 0
 BUTTON_2
-Text Notes 3200 4000 0    100  ~ 6
+Text Notes 3200 4000 0    100  ~ 0
 Arduino Nano
-Text Notes 1350 950  0    100  ~ 6
+Text Notes 1350 950  0    100  ~ 0
 Push Buttons
-Text Notes 1500 2500 0    100  ~ 6
+Text Notes 1500 2500 0    100  ~ 0
 Rotary Encoder
-Text Label 2650 3200 0    50   ~ 6
+Text Label 2650 3200 0    50   ~ 0
 ENCODER_SW
 $Comp
 L power:GND #PWR06
@@ -7988,9 +7988,9 @@ F 3 "" H 1550 3300 50  0001 C CNN
 	1    1550 3300
 	1    0    0    -1  
 $EndComp
-Text Label 1000 3200 2    50   ~ 6
+Text Label 1000 3200 2    50   ~ 0
 ENCODER_B
-Text Label 1000 3000 2    50   ~ 6
+Text Label 1000 3000 2    50   ~ 0
 ENCODER_A
 Wire Wire Line
 	1700 3000 1050 3000
@@ -8005,11 +8005,11 @@ F 3 "~" H 2000 3360 50  0001 C CNN
 	1    2000 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 6700 1000 0    100  ~ 6
+Text Notes 6700 1000 0    100  ~ 0
 10K Potentiometer
-Text Notes 3600 2600 0    100  ~ 6
+Text Notes 3600 2600 0    100  ~ 0
 RGB LED\nCommon Anode (+)\n
-Text Notes 4350 800  0    100  ~ 6
+Text Notes 4350 800  0    100  ~ 0
 Charlieplexed LEDs
 NoConn ~ 6200 3450
 NoConn ~ 6200 3050
@@ -8017,9 +8017,9 @@ Wire Wire Line
 	6200 3250 6250 3250
 Wire Wire Line
 	6200 3150 6250 3150
-Text Label 6250 3250 0    50   ~ 6
+Text Label 6250 3250 0    50   ~ 0
 RX
-Text Label 6250 3150 0    50   ~ 6
+Text Label 6250 3150 0    50   ~ 0
 TX
 $Comp
 L power:+5V #PWR014
@@ -8047,7 +8047,7 @@ F 3 "" H 6250 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 3550 6250 3550
-Text Notes 5800 2650 0    100  ~ 6
+Text Notes 5800 2650 0    100  ~ 0
 Serial Header
 $Comp
 L Connector:Conn_01x06_Male J2
@@ -8066,13 +8066,13 @@ Wire Wire Line
 	7600 3300 7650 3300
 Wire Wire Line
 	7600 3400 7650 3400
-Text Label 7650 3100 0    50   ~ 6
+Text Label 7650 3100 0    50   ~ 0
 SCK
-Text Label 7650 3200 0    50   ~ 6
+Text Label 7650 3200 0    50   ~ 0
 MISO
-Text Label 7650 3400 0    50   ~ 6
+Text Label 7650 3400 0    50   ~ 0
 SS
-Text Label 7650 3300 0    50   ~ 6
+Text Label 7650 3300 0    50   ~ 0
 MOSI
 Wire Wire Line
 	7650 3200 7600 3200
@@ -8113,7 +8113,7 @@ L Connector:Conn_01x06_Male J1
 U 1 1 5CBA789B
 P 6000 3350
 F 0 "J1" H 6050 2850 50  0000 C CNN
-F 1 "FTDI (Serial)" H 6250 2950 50  0000 C CNN
+F 1 "Serial / UART" H 6250 2950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6000 3350 50  0001 C CNN
 F 3 "~" H 6000 3350 50  0001 C CNN
 	1    6000 3350
@@ -8121,9 +8121,9 @@ F 3 "~" H 6000 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 3550 6250 3600
-Text Notes 7200 2650 0    100  ~ 6
+Text Notes 7200 2650 0    100  ~ 0
 SPI Connection
-Text Notes 8700 1000 0    100  ~ 6
+Text Notes 8700 1000 0    100  ~ 0
 Shitty Add-On
 Wire Wire Line
 	8850 1450 8750 1450
@@ -8148,11 +8148,11 @@ F 3 "" H 8750 1700 50  0001 C CNN
 	1    8750 1700
 	1    0    0    -1  
 $EndComp
-Text Label 9550 1450 0    50   ~ 6
+Text Label 9550 1450 0    50   ~ 0
 SDA
-Text Label 9550 1600 0    50   ~ 6
+Text Label 9550 1600 0    50   ~ 0
 SCL
-Text Notes 8750 2650 0    100  ~ 6
+Text Notes 8750 2650 0    100  ~ 0
 I2C Connection
 $Comp
 L Connector:Conn_01x04_Male J3
@@ -8195,9 +8195,9 @@ F 3 "" H 9250 3350 50  0001 C CNN
 	1    9250 3350
 	1    0    0    -1  
 $EndComp
-Text Label 9000 3100 0    50   ~ 6
+Text Label 9000 3100 0    50   ~ 0
 SDA
-Text Label 9000 3200 0    50   ~ 6
+Text Label 9000 3200 0    50   ~ 0
 SCL
 Wire Wire Line
 	8950 3100 9000 3100
