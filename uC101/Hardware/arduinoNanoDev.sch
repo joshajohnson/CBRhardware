@@ -7515,11 +7515,9 @@ F 3 "~" H 4300 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4450 3400 4700 3400
+	4450 3400 4650 3400
 Wire Wire Line
-	4450 3200 4700 3200
-Wire Wire Line
-	4450 3000 4700 3000
+	4450 3000 4500 3000
 Wire Wire Line
 	4050 3000 4150 3000
 Wire Wire Line
@@ -7622,15 +7620,13 @@ F 3 "~" H 4950 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4300 1050 4600 1050
+	4300 1050 4350 1050
 Connection ~ 4600 1050
 Wire Wire Line
 	4600 1050 4950 1050
 Connection ~ 4950 1050
 Wire Wire Line
-	4950 1050 5750 1050
-Wire Wire Line
-	4300 1350 4600 1350
+	4300 1350 4350 1350
 Connection ~ 4600 1350
 Wire Wire Line
 	4600 1350 4950 1350
@@ -7648,10 +7644,10 @@ Wire Wire Line
 	5500 1650 5150 1650
 Connection ~ 4600 1650
 Wire Wire Line
-	4600 1650 4300 1650
+	4600 1650 4350 1650
 Connection ~ 4600 1950
 Wire Wire Line
-	4600 1950 4300 1950
+	4600 1950 4350 1950
 Connection ~ 4950 1650
 Wire Wire Line
 	4950 1650 4600 1650
@@ -7813,8 +7809,8 @@ Wire Wire Line
 Text Label 4200 6050 0    50   ~ 0
 POT
 Wire Wire Line
-	7250 1550 7200 1550
-Text Label 7200 1550 2    50   ~ 0
+	7250 1550 7150 1550
+Text Label 7100 1550 2    50   ~ 0
 POT
 $Comp
 L power:+3V3 #PWR011
@@ -7845,9 +7841,9 @@ F 3 "" H 700 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 1500 1400 1500
+	1200 1500 1300 1500
 Wire Wire Line
-	2550 1500 2750 1500
+	2550 1500 2650 1500
 $Comp
 L Device:R R1
 U 1 1 5CB4C649
@@ -7927,82 +7923,80 @@ Text Notes 3200 4000 0    100  ~ 0
 Arduino Nano
 Text Notes 1350 950  0    100  ~ 0
 Push Buttons
-Text Notes 1500 2500 0    100  ~ 0
+Text Notes 1700 2500 0    100  ~ 0
 Rotary Encoder
-Text Label 2650 3200 0    50   ~ 0
+Text Label 2850 3200 0    50   ~ 0
 ENCODER_SW
 $Comp
 L power:GND #PWR06
 U 1 1 5CB17D7E
-P 2550 3600
-F 0 "#PWR06" H 2550 3350 50  0001 C CNN
-F 1 "GND" H 2555 3427 50  0000 C CNN
-F 2 "" H 2550 3600 50  0001 C CNN
-F 3 "" H 2550 3600 50  0001 C CNN
-	1    2550 3600
+P 2750 3600
+F 0 "#PWR06" H 2750 3350 50  0001 C CNN
+F 1 "GND" H 2755 3427 50  0000 C CNN
+F 2 "" H 2750 3600 50  0001 C CNN
+F 3 "" H 2750 3600 50  0001 C CNN
+	1    2750 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 3550 2550 3600
+	2750 3550 2750 3600
 Wire Wire Line
-	2550 3200 2650 3200
-Connection ~ 2550 3200
+	2750 3200 2850 3200
+Connection ~ 2750 3200
 Wire Wire Line
-	2550 3250 2550 3200
+	2750 3250 2750 3200
 Wire Wire Line
-	2300 3200 2550 3200
+	2500 3200 2750 3200
 $Comp
 L Device:R R2
 U 1 1 5CB11D89
-P 2550 3400
-F 0 "R2" H 2620 3446 50  0000 L CNN
-F 1 "10K" H 2620 3355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 3400 50  0001 C CNN
-F 3 "~" H 2550 3400 50  0001 C CNN
-	1    2550 3400
+P 2750 3400
+F 0 "R2" H 2820 3446 50  0000 L CNN
+F 1 "10K" H 2820 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 3400 50  0001 C CNN
+F 3 "~" H 2750 3400 50  0001 C CNN
+	1    2750 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR05
 U 1 1 5CB0F97B
-P 2550 2800
-F 0 "#PWR05" H 2550 2650 50  0001 C CNN
-F 1 "+5V" H 2565 2973 50  0000 C CNN
-F 2 "" H 2550 2800 50  0001 C CNN
-F 3 "" H 2550 2800 50  0001 C CNN
-	1    2550 2800
+P 2750 2800
+F 0 "#PWR05" H 2750 2650 50  0001 C CNN
+F 1 "+5V" H 2765 2973 50  0000 C CNN
+F 2 "" H 2750 2800 50  0001 C CNN
+F 3 "" H 2750 2800 50  0001 C CNN
+	1    2750 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 3000 2550 2800
+	2750 3000 2750 2800
 Wire Wire Line
-	2300 3000 2550 3000
+	2500 3000 2750 3000
 $Comp
 L power:GND #PWR02
 U 1 1 5CB0046A
-P 1550 3300
-F 0 "#PWR02" H 1550 3050 50  0001 C CNN
-F 1 "GND" H 1555 3127 50  0000 C CNN
-F 2 "" H 1550 3300 50  0001 C CNN
-F 3 "" H 1550 3300 50  0001 C CNN
-	1    1550 3300
+P 1850 3300
+F 0 "#PWR02" H 1850 3050 50  0001 C CNN
+F 1 "GND" H 1855 3127 50  0000 C CNN
+F 2 "" H 1850 3300 50  0001 C CNN
+F 3 "" H 1850 3300 50  0001 C CNN
+	1    1850 3300
 	1    0    0    -1  
 $EndComp
 Text Label 1000 3200 2    50   ~ 0
 ENCODER_B
 Text Label 1000 3000 2    50   ~ 0
 ENCODER_A
-Wire Wire Line
-	1700 3000 1050 3000
 $Comp
 L Device:Rotary_Encoder_Switch SW2
 U 1 1 5CA85DA7
-P 2000 3100
-F 0 "SW2" H 2000 3450 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 2050 3350 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 1850 3260 50  0001 C CNN
-F 3 "~" H 2000 3360 50  0001 C CNN
-	1    2000 3100
+P 2200 3100
+F 0 "SW2" H 2200 3450 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 2250 3350 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 2050 3260 50  0001 C CNN
+F 3 "~" H 2200 3360 50  0001 C CNN
+	1    2200 3100
 	1    0    0    -1  
 $EndComp
 Text Notes 6700 1000 0    100  ~ 0
@@ -8278,11 +8272,7 @@ $EndComp
 Wire Wire Line
 	5100 5950 5400 5950
 Wire Wire Line
-	1000 3200 1350 3200
-Wire Wire Line
-	1550 3100 1550 3300
-Wire Wire Line
-	1550 3100 1700 3100
+	1000 3200 1100 3200
 $Comp
 L Device:R R13
 U 1 1 5CAD3B69
@@ -8314,7 +8304,7 @@ Wire Wire Line
 	1350 2900 1350 3200
 Connection ~ 1350 3200
 Wire Wire Line
-	1350 3200 1700 3200
+	1350 3200 1900 3200
 $Comp
 L power:+5V #PWR025
 U 1 1 5CADDD12
@@ -8352,4 +8342,208 @@ F 3 "" H 8750 1350 50  0001 C CNN
 	1    8750 1350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 1050 5750 1050
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5CAB78FB
+P 1300 1400
+F 0 "TP2" H 1358 1518 50  0000 L CNN
+F 1 "B1" H 1358 1427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1500 1400 50  0001 C CNN
+F 3 "~" H 1500 1400 50  0001 C CNN
+	1    1300 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1400 1300 1500
+Connection ~ 1300 1500
+Wire Wire Line
+	1300 1500 1400 1500
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5CABD9AA
+P 2650 1400
+F 0 "TP4" H 2708 1518 50  0000 L CNN
+F 1 "B2" H 2708 1427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2850 1400 50  0001 C CNN
+F 3 "~" H 2850 1400 50  0001 C CNN
+	1    2650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1400 2650 1500
+Connection ~ 2650 1500
+Wire Wire Line
+	2650 1500 2750 1500
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5CAC351A
+P 4350 1000
+F 0 "TP5" H 4408 1118 50  0000 L CNN
+F 1 "C1" H 4408 1027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 1000 50  0001 C CNN
+F 3 "~" H 4550 1000 50  0001 C CNN
+	1    4350 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1000 4350 1050
+Connection ~ 4350 1050
+Wire Wire Line
+	4350 1050 4600 1050
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5CAC9244
+P 4350 1300
+F 0 "TP6" H 4408 1418 50  0000 L CNN
+F 1 "C2" H 4408 1327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 1300 50  0001 C CNN
+F 3 "~" H 4550 1300 50  0001 C CNN
+	1    4350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5CAC94AA
+P 4350 1600
+F 0 "TP7" H 4408 1718 50  0000 L CNN
+F 1 "C3" H 4408 1627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 1600 50  0001 C CNN
+F 3 "~" H 4550 1600 50  0001 C CNN
+	1    4350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5CAC97CC
+P 4350 1900
+F 0 "TP8" H 4408 2018 50  0000 L CNN
+F 1 "C4" H 4408 1927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 1900 50  0001 C CNN
+F 3 "~" H 4550 1900 50  0001 C CNN
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1950 4350 1900
+Connection ~ 4350 1950
+Wire Wire Line
+	4350 1950 4300 1950
+Wire Wire Line
+	4350 1650 4350 1600
+Connection ~ 4350 1650
+Wire Wire Line
+	4350 1650 4300 1650
+Wire Wire Line
+	4350 1300 4350 1350
+Connection ~ 4350 1350
+Wire Wire Line
+	4350 1350 4600 1350
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5CADAEAC
+P 4500 2950
+F 0 "TP9" H 4558 3068 50  0000 L CNN
+F 1 "RED" H 4558 2977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 2950 50  0001 C CNN
+F 3 "~" H 4700 2950 50  0001 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2950 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4700 3000
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5CAE1E73
+P 4650 3450
+F 0 "TP10" H 4592 3476 50  0000 R CNN
+F 1 "BLUE" H 4592 3567 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4850 3450 50  0001 C CNN
+F 3 "~" H 4850 3450 50  0001 C CNN
+	1    4650 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 3450 4650 3400
+Connection ~ 4650 3400
+Wire Wire Line
+	4650 3400 4700 3400
+Wire Wire Line
+	4450 3200 4650 3200
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5CAF086C
+P 5000 3250
+F 0 "TP11" V 4954 3438 50  0000 L CNN
+F 1 "GREEN" V 5045 3438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5200 3250 50  0001 C CNN
+F 3 "~" H 5200 3250 50  0001 C CNN
+	1    5000 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3250 4650 3250
+Wire Wire Line
+	4650 3250 4650 3200
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 3200 4700 3200
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5CB07059
+P 7150 1450
+F 0 "TP12" H 6950 1600 50  0000 L CNN
+F 1 "POT" H 6950 1500 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7350 1450 50  0001 C CNN
+F 3 "~" H 7350 1450 50  0001 C CNN
+	1    7150 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1450 7150 1550
+Connection ~ 7150 1550
+Wire Wire Line
+	7150 1550 7100 1550
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5CB15C58
+P 1450 3250
+F 0 "TP3" H 1392 3276 50  0000 R CNN
+F 1 "ENC_A" H 1392 3367 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1650 3250 50  0001 C CNN
+F 3 "~" H 1650 3250 50  0001 C CNN
+	1    1450 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5CB1D54E
+P 1100 3250
+F 0 "TP1" H 1042 3276 50  0000 R CNN
+F 1 "ENC_B" H 1042 3367 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1300 3250 50  0001 C CNN
+F 3 "~" H 1300 3250 50  0001 C CNN
+	1    1100 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 3250 1100 3200
+Connection ~ 1100 3200
+Wire Wire Line
+	1100 3200 1350 3200
+Wire Wire Line
+	1900 3100 1850 3100
+Wire Wire Line
+	1850 3100 1850 3300
+Wire Wire Line
+	1450 3000 1450 3250
+Connection ~ 1450 3000
+Wire Wire Line
+	1450 3000 1050 3000
+Wire Wire Line
+	1450 3000 1900 3000
 $EndSCHEMATC
