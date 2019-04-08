@@ -14,7 +14,7 @@ I would also suggest bringing a mouse, as layout on a touchpad is not much fun.
 [Robert Feranec - Layout Videos](https://www.youtube.com/user/matarofe/videos)  
 [100 Hardware Design Tips](https://www.youtube.com/watch?v=ZpMvKJzZk90&list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO)    
 [Review of PCB Layout](https://www.youtube.com/watch?v=HZVod5AFrVI)  
-[PCB CAD Design Guidelines](http://irtfweb.ifa.hawaii.edu/~ao/Electronic/Peter_dump/Electronics/System/Text/PCBCADGuidelines.pdf)
+[PCB CAD Design Guidelines](http://irtfweb.ifa.hawaii.edu/~ao/Electronic/Peter_dump/Electronics/System/Text/PCBCADGuidelines.pdf)  
 [PCB Art](http://www.andrewsowa.com/blog/2017/3/19/creating-the-benchoff-nickel)  
 [How I make Shitty Add-ons](https://www.youtube.com/watch?v=61NFK9KW_4s)  
 [KiBoM - BOM generation tool](https://github.com/SchrodingersGat/KiBoM)  

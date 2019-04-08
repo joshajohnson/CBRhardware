@@ -8546,4 +8546,220 @@ Wire Wire Line
 	1450 3000 1050 3000
 Wire Wire Line
 	1450 3000 1900 3000
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5CAC52C8
+P 6150 6950
+F 0 "TP13" H 6208 7068 50  0000 L CNN
+F 1 "GND" H 6208 6977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6350 6950 50  0001 C CNN
+F 3 "~" H 6350 6950 50  0001 C CNN
+	1    6150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 6950 6150 7000
+$Comp
+L power:GND #PWR019
+U 1 1 5CACD6C1
+P 6150 7000
+F 0 "#PWR019" H 6150 6750 50  0001 C CNN
+F 1 "GND" H 6155 6827 50  0000 C CNN
+F 2 "" H 6150 7000 50  0001 C CNN
+F 3 "" H 6150 7000 50  0001 C CNN
+	1    6150 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5CACE35F
+P 6500 6950
+F 0 "TP14" H 6558 7068 50  0000 L CNN
+F 1 "GND" H 6558 6977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6700 6950 50  0001 C CNN
+F 3 "~" H 6700 6950 50  0001 C CNN
+	1    6500 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 6950 6500 7000
+$Comp
+L power:GND #PWR026
+U 1 1 5CACE366
+P 6500 7000
+F 0 "#PWR026" H 6500 6750 50  0001 C CNN
+F 1 "GND" H 6505 6827 50  0000 C CNN
+F 2 "" H 6500 7000 50  0001 C CNN
+F 3 "" H 6500 7000 50  0001 C CNN
+	1    6500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J5
+U 1 1 5CAF4C6C
+P 1200 4500
+F 0 "J5" V 1400 4850 50  0000 L CNN
+F 1 "Conn_01x10" V 1300 4500 50  0000 L CNN
+F 2 "uC101:PinHole_1x10_P2.54mm_Vertical" H 1200 4500 50  0001 C CNN
+F 3 "~" H 1200 4500 50  0001 C CNN
+	1    1200 4500
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 800  4700
+NoConn ~ 900  4700
+NoConn ~ 1000 4700
+NoConn ~ 1100 4700
+NoConn ~ 1200 4700
+NoConn ~ 1300 4700
+NoConn ~ 1400 4700
+NoConn ~ 1500 4700
+NoConn ~ 1600 4700
+NoConn ~ 1700 4700
+$Comp
+L Connector_Generic:Conn_01x10 J6
+U 1 1 5CB43EBD
+P 1200 5000
+F 0 "J6" V 1400 5350 50  0000 L CNN
+F 1 "Conn_01x10" V 1300 5000 50  0000 L CNN
+F 2 "uC101:PinHole_1x10_P2.54mm_Vertical" H 1200 5000 50  0001 C CNN
+F 3 "~" H 1200 5000 50  0001 C CNN
+	1    1200 5000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1100 5200
+NoConn ~ 1200 5200
+NoConn ~ 1300 5200
+NoConn ~ 1400 5200
+NoConn ~ 1500 5200
+NoConn ~ 1600 5200
+NoConn ~ 1700 5200
+$Comp
+L Connector_Generic:Conn_01x10 J7
+U 1 1 5CB4BA6F
+P 1200 5500
+F 0 "J7" V 1400 5850 50  0000 L CNN
+F 1 "Conn_01x10" V 1300 5500 50  0000 L CNN
+F 2 "uC101:PinHole_1x10_P2.54mm_Vertical" H 1200 5500 50  0001 C CNN
+F 3 "~" H 1200 5500 50  0001 C CNN
+	1    1200 5500
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1100 5700
+NoConn ~ 1200 5700
+NoConn ~ 1300 5700
+NoConn ~ 1400 5700
+NoConn ~ 1500 5700
+NoConn ~ 1600 5700
+NoConn ~ 1700 5700
+$Comp
+L Connector_Generic:Conn_01x10 J8
+U 1 1 5CB53305
+P 1200 6000
+F 0 "J8" V 1400 6350 50  0000 L CNN
+F 1 "Conn_01x10" V 1300 6000 50  0000 L CNN
+F 2 "uC101:PinHole_1x10_P2.54mm_Vertical" H 1200 6000 50  0001 C CNN
+F 3 "~" H 1200 6000 50  0001 C CNN
+	1    1200 6000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1100 6200
+NoConn ~ 1200 6200
+NoConn ~ 1300 6200
+NoConn ~ 1400 6200
+NoConn ~ 1500 6200
+NoConn ~ 1600 6200
+NoConn ~ 1700 6200
+NoConn ~ 1000 6200
+NoConn ~ 900  6200
+NoConn ~ 800  6200
+NoConn ~ 800  5700
+NoConn ~ 900  5700
+NoConn ~ 1000 5700
+NoConn ~ 1000 5200
+NoConn ~ 900  5200
+NoConn ~ 800  5200
+$Comp
+L power:GND #PWR027
+U 1 1 5CBAFC0C
+P 1950 4800
+F 0 "#PWR027" H 1950 4550 50  0001 C CNN
+F 1 "GND" H 1955 4627 50  0000 C CNN
+F 2 "" H 1950 4800 50  0001 C CNN
+F 3 "" H 1950 4800 50  0001 C CNN
+	1    1950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 5CBA5DD4
+P 2050 4500
+F 0 "J9" V 2250 4550 50  0000 L CNN
+F 1 "Conn_01x04" V 2150 4200 50  0000 L CNN
+F 2 "uC101:PinHole_1x04_P2.54mm_Vertical" H 2050 4500 50  0001 C CNN
+F 3 "~" H 2050 4500 50  0001 C CNN
+	1    2050 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 4700 1950 4750
+Wire Wire Line
+	1950 4750 2050 4750
+Wire Wire Line
+	2250 4750 2250 4700
+Wire Wire Line
+	2150 4700 2150 4750
+Connection ~ 2150 4750
+Wire Wire Line
+	2150 4750 2250 4750
+Wire Wire Line
+	2050 4700 2050 4750
+Connection ~ 2050 4750
+Wire Wire Line
+	2050 4750 2150 4750
+Wire Wire Line
+	1950 4750 1950 4800
+Connection ~ 1950 4750
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5CBDF31B
+P 2150 5450
+F 0 "J10" V 2350 5150 50  0000 L CNN
+F 1 "Conn_01x04" V 2250 5150 50  0000 L CNN
+F 2 "uC101:PinHole_1x04_P2.54mm_Vertical" H 2150 5450 50  0001 C CNN
+F 3 "~" H 2150 5450 50  0001 C CNN
+	1    2150 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 5250 2250 5200
+Wire Wire Line
+	2250 5200 2150 5200
+Wire Wire Line
+	1950 5200 1950 5250
+Wire Wire Line
+	2050 5250 2050 5200
+Connection ~ 2050 5200
+Wire Wire Line
+	2050 5200 1950 5200
+Wire Wire Line
+	2150 5250 2150 5200
+Connection ~ 2150 5200
+Wire Wire Line
+	2150 5200 2050 5200
+Wire Wire Line
+	2250 5200 2250 5150
+Connection ~ 2250 5200
+$Comp
+L power:+5V #PWR028
+U 1 1 5CBE7A2F
+P 2250 5150
+F 0 "#PWR028" H 2250 5000 50  0001 C CNN
+F 1 "+5V" V 2250 5350 50  0000 C CNN
+F 2 "" H 2250 5150 50  0001 C CNN
+F 3 "" H 2250 5150 50  0001 C CNN
+	1    2250 5150
+	1    0    0    -1  
+$EndComp
+Text Notes 850  4000 0    100  ~ 0
+Prototyping Area
 $EndSCHEMATC
