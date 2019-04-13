@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name uC101)(type Legacy)(uri ${KIPRJMOD}/Libraries/uC101.lib)(options "")(descr ""))
+  (lib (name SAO101)(type Legacy)(uri "C:/Users/Josh Johnson/Dropbox/Projects/CanberraHardwareMeetup/SAO101/HW/Libraries/SAO101.lib")(options "")(descr ""))
 )

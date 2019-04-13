@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name SAO101)(type KiCad)(uri ${KIPRJMOD}/Libraries/SAO101.pretty)(options "")(descr "")(disabled))
   (lib (name uC101)(type KiCad)(uri ${KIPRJMOD}/Libraries/uC101.pretty)(options "")(descr ""))
+  (lib (name VeinCam_Footprints)(type KiCad)(uri "C:/Users/Josh Johnson/Dropbox/ENGN4221/VeinCam2019/Hardware/Library/VeinCam_Footprints")(options "")(descr "")(disabled))
 )

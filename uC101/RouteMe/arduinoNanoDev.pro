@@ -1,4 +1,4 @@
-update=6/04/2019 20:13:34
+update=6/04/2019 21:15:16
 version=1
 last_client=kicad
 [general]
@@ -31,6 +31,7 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.25
 TrackWidth3=0.3
+TrackWidth4=0.4
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.6
@@ -52,7 +53,7 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgeCutLineWidth=0.05
+EdgeCutLineWidth=0.15
 CourtyardLineWidth=0.05
 OthersLineWidth=0.15
 OthersTextSizeV=1
