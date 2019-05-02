@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 37)
+    (drawings 36)
     (tracks 370)
     (zones 0)
     (modules 55)
@@ -67,8 +67,8 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (layerselection 0x010f8_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -90,9 +90,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -2100,9 +2100,6 @@
   )
   (gr_text +3V3 (at 171.45 66.675 90) (layer F.SilkS) (tstamp 5CAD887E)
     (effects (font (size 1 1) (thickness 0.2)))
-  )
-  (gr_text bit.ly/CBRhardware (at 251 71.6) (layer B.SilkS) (tstamp 5CADC123)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text GND (at 199.39 67.31 90) (layer F.SilkS) (tstamp 5CAC6478)
     (effects (font (size 1 1) (thickness 0.2)))
