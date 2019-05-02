@@ -1,0 +1,19 @@
+\frametitle{Bit Shifting}
+
+\begin{BVerbatim}[tabsize=4]
+a = 5;        // binary: 00000101
+b = a << 3;   // binary: 00101000, 40 in decimal
+c = b >> 3;   // binary: 00000101, back to 5 like we started
+\end{BVerbatim}
+
+\vspace*{10mm}
+\textbf{Putting it all together}\\
+
+\begin{BVerbatim}[tabsize=4]
+x = 1;      // binary: 00000001
+x <<= 3;    // binary: 00001000
+x |= 3;     // binary: 00001011 - because 3 is 11 in binary
+x &= 1;     // binary: 00000001
+x ^= 4;     // binary: 00000101 - binary mask 100
+x ^= 4;     // binary: 00000001 - toggle again
+\end{BVerbatim}

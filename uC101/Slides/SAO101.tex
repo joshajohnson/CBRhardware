@@ -78,7 +78,7 @@
 
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-
+\usepackage{fancyvrb} % Tabs in verbatim
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -108,10 +108,10 @@
 \begin{frame}
 \frametitle{Overview}
 \begin{itemize}
-\item Assembly of Hardware
+\item Assembly of Hardware / Installation of Software
 \item Microcontroller 101
 \item Tools
-\item Bit shifting, logical operations
+\item Bit Math
 \item Demos
 \begin{itemize}
 	\item Blink
@@ -245,6 +245,129 @@ Project Files: \url{github.com/joshajohnson/CBRhardware}\\
 \begin{figure}
 	\includegraphics[scale=0.4]{328pArchitecture.png}
 \end{figure}
+
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{Microcontroller 101}
+\textbf{Datasheet time!} 
+
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{Tools}
+\begin{itemize}
+	\item Oscilloscope
+	\begin{itemize}
+		\item + High quality time domain measurements (500 MSPS - 256 GSPS)
+		\item - Expensive, short record time
+	\end{itemize} 	
+	\item Logic Analyser
+	\begin{itemize}
+		\item + Easy to use UI, long sample time / depth
+		\item - 1 bit*, low sample rate (10 - 100 - 500 MSPS)
+		\item * some logic analysers have limited analog capabilities 
+	\end{itemize} 
+	\item Debugger
+	\begin{itemize}
+		\item Program and debug device
+	\end{itemize} 
+	\item Multimeter
+	\begin{itemize}
+		\item Voltage and resistance measurements
+	\end{itemize} 
+	\item Development Board
+	\begin{itemize}
+		\item Whilst not a tool, extremely helpful whilst bringing up firmware
+		\item Helpful when developing code - the issue isnt (typically) the hardware!
+	\end{itemize} 
+\end{itemize} 
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t,fragile]
+\frametitle{Bitwise Operators}
+
+\begin{figure}
+	\includegraphics[scale=0.8]{truthTables.png}
+\end{figure}
+
+\begin{BVerbatim}[tabsize=4]
+     y = ~a	   y = a & b 	y = a | b   y = a ^ b
+              NOT y = a && b
+\end{BVerbatim}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t,fragile]
+\frametitle{Bit Shifting}
+
+\begin{BVerbatim}[tabsize=4]
+a = 5;        // binary: 00000101
+b = a << 3;   // binary: 00101000, 40 in decimal
+c = b >> 3;   // binary: 00000101, back to 5 like we started
+\end{BVerbatim}
+
+\vspace*{10mm}
+\textbf{Putting it all together}\\
+
+\begin{BVerbatim}[tabsize=4]
+x = 1;      // binary: 00000001
+x <<= 3;    // binary: 00001000
+x |= 3;     // binary: 00001011 - because 3 is 11 in binary
+x &= 1;     // binary: 00000001
+x ^= 4;     // binary: 00000101 - binary mask 100
+x ^= 4;     // binary: 00000001 - toggle again
+\end{BVerbatim}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{Demo Time!}
+Copy the uC101Library folder to \texttt{Documents/Arduino/libraries}\\
+Open \texttt{Firmware/blink/blink.ino}\\
+In Arduino IDE:\\
+\texttt{Tools->Board:-> Arduino Nano}\\
+\texttt{Tools->Processor:-> ATmega328p}\\
+\texttt{Tools->Port:-> \$comPort}\\
+
+Run blink.ino and confirm that the onboard LED is blinking
+
+
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{Demo Time!}
+\begin{columns}
+	\column{.6\textwidth}
+	\begin{figure}
+		\includegraphics[scale=0.35]{thomasTankCode.jpg}
+	\end{figure}	
+	\column{.4\textwidth}
+	\begin{itemize}
+		\item I'm a hardware person
+		\item Not a software person
+		\item Solder is my preferred programming language
+		\item I know enough to be dangerous, nothing more
+		\item More experienced folks, please jump in and correct me / answer questions I can't / point out bad practices
+		\item I'm here to learn like everyone else
+	\end{itemize}
+	
+\end{columns}
+
 
 \end{frame}
 
