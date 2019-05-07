@@ -111,7 +111,6 @@ void loop() {
 //  {
 //    previousTime = currentTime;
 //    ledToggle(LED_BLUE);
-//    _delay_ms(500);
 //  }
 //}
 

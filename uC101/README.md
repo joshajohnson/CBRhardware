@@ -4,6 +4,7 @@ Project files for an intro to microcontrollers workshop.
 Currently under development, check back later for more info. 
 
 ### To get up and running:
+Install Arduino IDE  
 Copy the uC101Library folder to `Documents/Arduino/libraries`  
 Open `Firmware/blink/blink.ino`  
 In Arduino IDE:  

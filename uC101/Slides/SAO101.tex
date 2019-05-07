@@ -103,8 +103,6 @@
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
 
-\section{Subsection Example} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
-
 \begin{frame}
 \frametitle{Overview}
 \begin{itemize}
@@ -118,7 +116,6 @@
 	\item Button
 	\item RGB LED (PWM)
 	\item Rotary Encoder
-	\item UART
 	\item Charlieplexing
 \end{itemize}
 	
@@ -140,6 +137,22 @@ Project Files: \url{github.com/joshajohnson/CBRhardware}\\
 \end{frame}
 
 %----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{Software Installation!}
+Install Arduino  IDE\\
+Copy the uC101Library folder to \texttt{Documents/Arduino/libraries}\\
+Open \texttt{Firmware/blink/blink.ino}\\
+In Arduino IDE:\\
+\texttt{Tools->Board:-> Arduino Nano}\\
+\texttt{Tools->Processor:-> ATmega328p}\\
+\texttt{Tools->Port:-> \$comPort}\\
+Run blink.ino and confirm that the onboard LED is blinking
+
+
+\end{frame}
 
 \begin{frame}[t]
 \frametitle{Microcontroller 101}
@@ -252,26 +265,17 @@ Project Files: \url{github.com/joshajohnson/CBRhardware}\\
 %----------------------------------------------------------------------------------------
 
 \begin{frame}[t]
-\frametitle{Microcontroller 101}
-\textbf{Datasheet time!} 
-
-\end{frame}
-
-
-%----------------------------------------------------------------------------------------
-
-\begin{frame}[t]
 \frametitle{Tools}
 \begin{itemize}
 	\item Oscilloscope
 	\begin{itemize}
-		\item + High quality time domain measurements (500 MSPS - 256 GSPS)
+		\item + Great time domain measurements (100 - 500 MSPS - 256 GSPS)
 		\item - Expensive, short record time
 	\end{itemize} 	
 	\item Logic Analyser
 	\begin{itemize}
 		\item + Easy to use UI, long sample time / depth
-		\item - 1 bit*, low sample rate (10 - 100 - 500 MSPS)
+		\item - 1 bit*, low sample rate (25 - 100 - 500 MSPS)
 		\item * some logic analysers have limited analog capabilities 
 	\end{itemize} 
 	\item Debugger
@@ -299,9 +303,9 @@ Project Files: \url{github.com/joshajohnson/CBRhardware}\\
 	\includegraphics[scale=0.8]{truthTables.png}
 \end{figure}
 
-\begin{BVerbatim}[tabsize=4]
-     y = ~a	   y = a & b 	y = a | b   y = a ^ b
-              NOT y = a && b
+\begin{BVerbatim}[tabsize=1]
+       y = ~a      y = a & b    y = a | b    y = a ^ b
+               NOT y = a && b
 \end{BVerbatim}
 
 \end{frame}
@@ -309,44 +313,72 @@ Project Files: \url{github.com/joshajohnson/CBRhardware}\\
 %----------------------------------------------------------------------------------------
 
 \begin{frame}[t,fragile]
-\frametitle{Bit Shifting}
+\frametitle{Binary Operations}
+Binary Numbers\\
+\begin{verbatim}
+Binary:   0  1  0  0  1  0  1  1
+Weight: 128 64 32 16  8  4  2  1
+Base 2  (Binary): 0b01001011
+Base 10 (Decimal): 75 
+Base 16 (Hexadecimal): 0x4B
+\end{verbatim}
 
-\begin{BVerbatim}[tabsize=4]
+\break
+Bit Shifting\\
+\begin{verbatim}
 a = 5;        // binary: 00000101
 b = a << 3;   // binary: 00101000, 40 in decimal
 c = b >> 3;   // binary: 00000101, back to 5 like we started
-\end{BVerbatim}
-
-\vspace*{10mm}
-\textbf{Putting it all together}\\
-
-\begin{BVerbatim}[tabsize=4]
+\end{verbatim}
+\break
+Putting it all together\\
+\begin{verbatim}
 x = 1;      // binary: 00000001
 x <<= 3;    // binary: 00001000
-x |= 3;     // binary: 00001011 - because 3 is 11 in binary
+x |= 3;     // binary: 00001011 - 3 is 11 in binary
 x &= 1;     // binary: 00000001
-x ^= 4;     // binary: 00000101 - binary mask 100
-x ^= 4;     // binary: 00000001 - toggle again
-\end{BVerbatim}
+\end{verbatim}
 \end{frame}
+
+
+
 
 %----------------------------------------------------------------------------------------
 
-\begin{frame}[t]
-\frametitle{Demo Time!}
-Copy the uC101Library folder to \texttt{Documents/Arduino/libraries}\\
-Open \texttt{Firmware/blink/blink.ino}\\
-In Arduino IDE:\\
-\texttt{Tools->Board:-> Arduino Nano}\\
-\texttt{Tools->Processor:-> ATmega328p}\\
-\texttt{Tools->Port:-> \$comPort}\\
-
-Run blink.ino and confirm that the onboard LED is blinking
-
-
+\begin{frame}[t,fragile]
+\frametitle{Setting Registers}
+\begin{columns}
+\column{0.4\textwidth}
+Setting a bit in a register
+\begin{verbatim}
+REG = REG | (1 << x);
+REG |= (1<<x);
+\end{verbatim}
+Clearing a bit in a register
+\begin{verbatim}
+REG = REG & ~(1 << x);
+REG &= ~(1<<x);
+\end{verbatim}
+Toggling a bit in a register
+\begin{verbatim}
+REG = REG ^ (1 << x);
+REG ^= (1<<x);
+\end{verbatim}
+\column{0.59\textwidth}
+Toggling multiple bits in a register
+\begin{verbatim}
+REG = REG ^ ((1 << x) | (1 << y));
+REG ^= (1<<x) | (1<<y);
+\end{verbatim}
+AVR specific macro to bitshift
+\begin{verbatim}
+(1<<x) == _BV(x)
+REG = (1<<x) | (1<<y);
+REG = _BV(x) | _BV(y);
+\end{verbatim}
+What is the difference between the above and the first example (other than two variables)?
+\end{columns}
 \end{frame}
-
-
 %----------------------------------------------------------------------------------------
 
 \begin{frame}[t]
@@ -354,12 +386,11 @@ Run blink.ino and confirm that the onboard LED is blinking
 \begin{columns}
 	\column{.6\textwidth}
 	\begin{figure}
-		\includegraphics[scale=0.35]{thomasTankCode.jpg}
+		\includegraphics[scale=0.45]{thomasTankCode.jpg}
 	\end{figure}	
 	\column{.4\textwidth}
 	\begin{itemize}
-		\item I'm a hardware person
-		\item Not a software person
+		\item I'm a hardware person, not a software person
 		\item Solder is my preferred programming language
 		\item I know enough to be dangerous, nothing more
 		\item More experienced folks, please jump in and correct me / answer questions I can't / point out bad practices
@@ -371,24 +402,281 @@ Run blink.ino and confirm that the onboard LED is blinking
 
 \end{frame}
 
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{blink.ino}
+\begin{itemize}
+	\item Default blink
+	\item Register level blink
+	\item Nicer blink
+	\item Even nicer blink
+	\item Blink without delay
+	\item Size comparison
+	\item Speed comparison  
+\end{itemize}
+\end{frame}
 
 %----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{button.ino}
+\begin{itemize}
+	\item Toggle on press
+	\item Toggle on press with delay
+	\item Button with interrupt
+	\item Debounced button
+\end{itemize}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{button.ino}
+\textbf{Button Bounce}
+\begin{itemize}
+	\item What is button bounce?
+	\item How to fix it? 
+	\begin{itemize}
+		\item Hardware - RC Circuit
+		\item Hardware - RC + Schmitt trigger
+		\item Software - Button polling
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{button.ino}
+\textbf{Button Bounce}
+\begin{itemize}
+	\item What is button bounce?
+\end{itemize}
+\begin{figure}
+	\includegraphics[scale=0.3]{bouncingBegin.png}
+\end{figure}
+\centering
+Yellow = actual button, Blue = 'ideal button'
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{button.ino}
+\textbf{Button Bounce}
+\begin{itemize}
+	\item Fix 1 - RC Circuit
+\end{itemize}
+\begin{figure}
+	\includegraphics[scale=0.3]{RCswitch.png}
+\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{button.ino}
+\textbf{Button Bounce}
+\begin{itemize}
+	\item Fix 2 - RC Circuit + Schmitt trigger
+\end{itemize}
+\begin{figure}
+	\includegraphics[scale=0.3]{schmittSwitch.png}
+\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{button.ino}
+\textbf{Hysteresis}
+\begin{figure}
+	\includegraphics[scale=0.43]{Hysteresis1.png}
+\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{button.ino}
+\textbf{Button Bounce}
+\begin{itemize}
+	\item Fix 3 - Button polling (FPGA assignment version)
+\end{itemize}
+\begin{figure}
+	\includegraphics[scale=0.3]{riseDelay.png}
+\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t,fragile]
+\frametitle{button.ino}
+\textbf{Button Bounce}
+\begin{itemize}
+	\item Fix 3 - Button polling (uC101 version)
+\end{itemize}
+\begin{verbatim}
+// Shift in a new value
+history = history << 1;
+history |= readPin(button);
+
+// Check for button conditions
+(history == 0b11111111) ? on = 1 : on = 0;
+(history == 0b00000000) ? off = 1 : off = 0;
+(history == 0b01111111) ? rising = 1 : rising = 0;
+(history == 0b10000000) ? falling = 1 : falling = 0;
+\end{verbatim}
+Above code called every 1-5ms
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{pwmLED.ino}
+\textbf{Pulse Width Modulation}
+
+\begin{figure}
+	\includegraphics[width=0.8\textwidth]{pwm_wave.png}
+\end{figure}
+
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t,fragile]
+\frametitle{rotaryEncoder.ino}
+\textbf{Rotary Encoder Internal Operation}
+
+\begin{figure}
+	\includegraphics[width=0.8\textwidth]{encoderInternals.jpg}
+\end{figure}
+
+
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{rotaryEncoder.ino}
+\textbf{Rotary Encoder Output}
+
+\begin{figure}
+	\includegraphics[width=0.8\textwidth]{rotary-encoder-output.jpg}
+\end{figure}
+
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t,fragile]
+\frametitle{rotaryEncoder.ino}
+\textbf{Rotary Encoder Code}
+
+\begin{verbatim}
+(onB && risingA) ? clockwise = 1 : clockwise = 0;
+(onB && fallingA) ? antiClockwise = 1 : antiClockwise = 0;
+\end{verbatim}
+or
+\begin{verbatim}
+(onB && risingA) ? clockwise = 1 : clockwise = 0;
+(onA && risingB) ? antiClockwise = 1 : antiClockwise = 0;
+\end{verbatim}
+or
+\begin{verbatim}
+(fallingA && onB) ? clockwise = 1 : clockwise = 0;
+(fallingA && offB) ? antiClockwise = 1 : antiClockwise = 0;
+\end{verbatim}
+
+all are functionally identical, however last one can be pin interrupt driven
+
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{charlieplexing.ino}
+\textbf{Charlieplexing vs Multiplexing}
+
+\begin{figure}
+	\includegraphics[width=0.8\textwidth]{charliePlexing.png}
+\end{figure}
+\centering
+Charlieplexing: numLed = $p^2-p$ \\
+Has to be scanned
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{charlieplexing.ino}
+\textbf{How to tristate a pin}
+
+\begin{figure}
+	\includegraphics[width=0.8\textwidth]{gpioOutput.png}
+\end{figure}
+
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{charlieplexing.ino}
+\textbf{How to tristate a pin}
+
+\begin{figure}
+	\includegraphics[width=0.8\textwidth]{gpioOutputClose.png}
+\end{figure}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{charlieplexing.ino}
+\textbf{Charlieplexing vs Multiplexing}
+
+\begin{figure}
+	\includegraphics[width=0.7\textwidth]{multiPlexing.png}
+\end{figure}
+\centering
+Multiplexing: numLed = $\left \lfloor{\frac{p}{2}^2}\right \rfloor$ \\
+Can be continuously driven 
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
 
 \begin{frame}
 \frametitle{The End}
 Links to resources: \texttt{uC101/README.md}
 \vspace{5mm}
 
-\textbf{Next Month}
+\textbf{Next month}
 \begin{itemize}
 	\item Breadboard to Printed Circuit Board
 	\item Mechanical Design Considerations	
 \end{itemize}
+\vspace{3mm}
+\textbf{Month after that}
+\begin{itemize}
+	\item uC102: Communication Protocol Edition	
+\end{itemize}
 
-\vspace{20mm}
+\vspace{5mm}
 Say Hello! \\
 BSidesCbr Slack: josh\\
-Twitter: @\textunderscore joshajohnson\\
+Twitter:  @\textunderscore joshajohnson\\
 Email: josh@joshajohnson.com\\
 \vspace{4mm}
 
