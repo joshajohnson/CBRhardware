@@ -28,7 +28,7 @@ The [uC101](/uC101) folder contains resources which will be used.
 |Date|Topic|
 |-|-|
 |13/5/19|Intro to Microcontrollers / How to interface to the real world|
-|10/6/19|TBD|
+|10/6/19|Breadboard to PC Board / Mechanical Design Considerations|
 
 
 ### Past Events
