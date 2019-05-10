@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.3)  10 MAY 2019 13:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.3)  10 MAY 2019 14:09
 entering extended mode
 **./uC101.tex
 (uC101.tex
@@ -993,18 +993,18 @@ Package pdftex.def Info: hardware.jpg  used on input line 137.
 <microProcessorVsController.jpg, id=152, 739.76375pt x 410.53375pt>
 File: microProcessorVsController.jpg Graphic file (type jpg)
 <use microProcessorVsController.jpg>
-Package pdftex.def Info: microProcessorVsController.jpg  used on input line 166
+Package pdftex.def Info: microProcessorVsController.jpg  used on input line 167
 .
 (pdftex.def)             Requested size: 295.90025pt x 164.21059pt.
  [5
 
  <./microProcessorVsController.jpg>]
-Overfull \hbox (3.08217pt too wide) in paragraph at lines 216--216
+Overfull \hbox (3.08217pt too wide) in paragraph at lines 217--217
 []\OT1/cmss/m/n/10.95 Microchip)  
  []
 
 
-Overfull \hbox (7.34052pt too wide) in paragraph at lines 216--216
+Overfull \hbox (7.34052pt too wide) in paragraph at lines 217--217
 []\OT1/cmss/m/n/10.95 (Microchip)  
  []
 
@@ -1016,10 +1016,10 @@ Overfull \hbox (7.34052pt too wide) in paragraph at lines 216--216
 <328pArchitecture.png, id=294, 735.49782pt x 501.37312pt>
 File: 328pArchitecture.png Graphic file (type png)
 <use 328pArchitecture.png>
-Package pdftex.def Info: 328pArchitecture.png  used on input line 262.
+Package pdftex.def Info: 328pArchitecture.png  used on input line 263.
 (pdftex.def)             Requested size: 294.19392pt x 200.54568pt.
 
-Overfull \vbox (0.89473pt too high) detected at line 262
+Overfull \vbox (0.89473pt too high) detected at line 263
  []
 
 [8
@@ -1048,7 +1048,7 @@ ted[]
  []
 
 )
-Overfull \vbox (6.0533pt too high) detected at line 341
+Overfull \vbox (6.0533pt too high) detected at line 342
  []
 
 [11
@@ -1062,10 +1062,10 @@ Overfull \vbox (6.0533pt too high) detected at line 341
 <thomasTankCode.jpg, id=458, 421.575pt x 454.69875pt>
 File: thomasTankCode.jpg Graphic file (type jpg)
 <use thomasTankCode.jpg>
-Package pdftex.def Info: thomasTankCode.jpg  used on input line 403.
+Package pdftex.def Info: thomasTankCode.jpg  used on input line 404.
 (pdftex.def)             Requested size: 189.70699pt x 204.61253pt.
 
-Overfull \vbox (3.83241pt too high) detected at line 403
+Overfull \vbox (3.83241pt too high) detected at line 404
  []
 
 [13
@@ -1080,7 +1080,7 @@ Overfull \vbox (3.83241pt too high) detected at line 403
 <bouncingBegin.png, id=608, 803.0pt x 481.8pt>
 File: bouncingBegin.png Graphic file (type png)
 <use bouncingBegin.png>
-Package pdftex.def Info: bouncingBegin.png  used on input line 462.
+Package pdftex.def Info: bouncingBegin.png  used on input line 463.
 (pdftex.def)             Requested size: 240.90186pt x 144.5411pt.
  [17
 
@@ -1088,7 +1088,7 @@ Package pdftex.def Info: bouncingBegin.png  used on input line 462.
 <RCswitch.png, id=637, 647.41875pt x 596.2275pt>
 File: RCswitch.png Graphic file (type png)
 <use RCswitch.png>
-Package pdftex.def Info: RCswitch.png  used on input line 475.
+Package pdftex.def Info: RCswitch.png  used on input line 476.
 (pdftex.def)             Requested size: 194.22711pt x 178.86963pt.
  [18
 
@@ -1096,7 +1096,7 @@ Package pdftex.def Info: RCswitch.png  used on input line 475.
 <schmittSwitch.png, id=667, 873.2625pt x 610.53094pt>
 File: schmittSwitch.png Graphic file (type png)
 <use schmittSwitch.png>
-Package pdftex.def Info: schmittSwitch.png  used on input line 488.
+Package pdftex.def Info: schmittSwitch.png  used on input line 489.
 (pdftex.def)             Requested size: 261.98076pt x 183.16069pt.
  [19
 
@@ -1104,7 +1104,7 @@ Package pdftex.def Info: schmittSwitch.png  used on input line 488.
 <Hysteresis1.png, id=696, 788.66954pt x 356.532pt>
 File: Hysteresis1.png Graphic file (type png)
 <use Hysteresis1.png>
-Package pdftex.def Info: Hysteresis1.png  used on input line 498.
+Package pdftex.def Info: Hysteresis1.png  used on input line 499.
 (pdftex.def)             Requested size: 339.12129pt x 153.30576pt.
  [20
 
@@ -1112,7 +1112,7 @@ Package pdftex.def Info: Hysteresis1.png  used on input line 498.
 <riseDelay.png, id=725, 803.0pt x 481.8pt>
 File: riseDelay.png Graphic file (type png)
 <use riseDelay.png>
-Package pdftex.def Info: riseDelay.png  used on input line 511.
+Package pdftex.def Info: riseDelay.png  used on input line 512.
 (pdftex.def)             Requested size: 240.90186pt x 144.5411pt.
 
 [21
@@ -1126,7 +1126,7 @@ Package pdftex.def Info: riseDelay.png  used on input line 511.
 <pwm_wave.png, id=780, 1505.625pt x 1053.9375pt>
 File: pwm_wave.png Graphic file (type png)
 <use pwm_wave.png>
-Package pdftex.def Info: pwm_wave.png  used on input line 547.
+Package pdftex.def Info: pwm_wave.png  used on input line 548.
 (pdftex.def)             Requested size: 273.83728pt x 191.67862pt.
  [23
 
@@ -1145,10 +1145,10 @@ Package pdftex.def Info: encoderInternals.jpg  used on input line 5.
 <rotary-encoder-output.jpg, id=834, 539.01375pt x 406.51875pt>
 File: rotary-encoder-output.jpg Graphic file (type jpg)
 <use rotary-encoder-output.jpg>
-Package pdftex.def Info: rotary-encoder-output.jpg  used on input line 574.
+Package pdftex.def Info: rotary-encoder-output.jpg  used on input line 575.
 (pdftex.def)             Requested size: 273.83728pt x 206.52783pt.
 
-Overfull \vbox (6.87688pt too high) detected at line 574
+Overfull \vbox (6.87688pt too high) detected at line 575
  []
 
 [25
@@ -1162,7 +1162,7 @@ Overfull \vbox (6.87688pt too high) detected at line 574
 <charliePlexing.png, id=888, 804.00375pt x 405.76593pt>
 File: charliePlexing.png Graphic file (type png)
 <use charliePlexing.png>
-Package pdftex.def Info: charliePlexing.png  used on input line 615.
+Package pdftex.def Info: charliePlexing.png  used on input line 616.
 (pdftex.def)             Requested size: 273.83728pt x 138.20006pt.
  [27
 
@@ -1170,7 +1170,7 @@ Package pdftex.def Info: charliePlexing.png  used on input line 615.
 <gpioOutput.png, id=917, 1027.84pt x 538.01pt>
 File: gpioOutput.png Graphic file (type png)
 <use gpioOutput.png>
-Package pdftex.def Info: gpioOutput.png  used on input line 628.
+Package pdftex.def Info: gpioOutput.png  used on input line 629.
 (pdftex.def)             Requested size: 273.83728pt x 143.33543pt.
 [28
 
@@ -1178,7 +1178,7 @@ Package pdftex.def Info: gpioOutput.png  used on input line 628.
 <gpioOutputClose.png, id=945, 261.97874pt x 131.74219pt>
 File: gpioOutputClose.png Graphic file (type png)
 <use gpioOutputClose.png>
-Package pdftex.def Info: gpioOutputClose.png  used on input line 640.
+Package pdftex.def Info: gpioOutputClose.png  used on input line 641.
 (pdftex.def)             Requested size: 273.83728pt x 137.71019pt.
  [29
 
@@ -1186,7 +1186,7 @@ Package pdftex.def Info: gpioOutputClose.png  used on input line 640.
 <multiPlexing.png, id=973, 691.83469pt x 444.91219pt>
 File: multiPlexing.png Graphic file (type png)
 <use multiPlexing.png>
-Package pdftex.def Info: multiPlexing.png  used on input line 655.
+Package pdftex.def Info: multiPlexing.png  used on input line 656.
 (pdftex.def)             Requested size: 239.60567pt x 154.08548pt.
  [30
 
@@ -1203,18 +1203,18 @@ Package pdftex.def Info: multiPlexing.png  used on input line 655.
 \tf@snm=\write9
 \openout9 = `uC101.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 686.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 686.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 687.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 687.
  (uC101.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 686.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 686.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 687.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 687.
 Package rerunfilecheck Info: File `uC101.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  17951 strings out of 492945
  348350 string characters out of 3126253
- 416692 words of memory out of 3000000
+ 417692 words of memory out of 3000000
  21349 multiletter control sequences out of 15000+200000
  15303 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1231,7 +1231,7 @@ cm/cmssi10.pfb><C:/Users/jonno/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmssi8.pfb><C:/Users/jonno/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jonno/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on uC101.pdf (31 pages, 3014640 bytes).
+Output written on uC101.pdf (31 pages, 3014666 bytes).
 PDF statistics:
  1082 PDF objects out of 1200 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)
