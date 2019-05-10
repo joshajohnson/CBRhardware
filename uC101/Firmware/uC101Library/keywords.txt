@@ -20,14 +20,14 @@ dirOut 		KEYWORD2
 dirIn		KEYWORD2
 readPin		KEYWORD2
 
-timerInit
-timerMilliseconds
-buttonPollingInit
-pollButton
-encoderPollInit
-pollEncoder
-calculateEncoder
-encoderFSM
+timerInit			KEYWORD2
+timerMilliseconds	KEYWORD2
+buttonPollingInit	KEYWORD2
+pollButton			KEYWORD2
+encoderPollInit		KEYWORD2
+pollEncoder			KEYWORD2		
+calculateEncoder	KEYWORD2
+encoderFSM			KEYWORD2
 
 
 

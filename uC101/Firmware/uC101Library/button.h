@@ -1,7 +1,7 @@
 #ifndef __BUTTON_H__
 #define __BUTTON_H__
 
-// Struct definitions
+// Struct definition
 typedef struct buttonStruct{
 	volatile uint8_t* port;
 	volatile uint8_t pin;

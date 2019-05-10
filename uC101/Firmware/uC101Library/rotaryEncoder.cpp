@@ -4,7 +4,7 @@
 #include <avr/sfr_defs.h>
 #include <avr/interrupt.h>
 
-#define CTC_MATCH_OVERFLOW_ENCODER 8
+#define CTC_MATCH_OVERFLOW_ENCODER 8 // Compare value for TIMER1
 
 // For  state machine
 #define IDLE 	0b00000000

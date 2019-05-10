@@ -1,7 +1,7 @@
 #ifndef __ROTARYENCODER_H__
 #define __ROTARYENCODER_H__
 
-// Struct definitions
+// Struct definition
 typedef struct encoderStruct{
 	volatile uint8_t* port1;
 	volatile uint8_t pin1;
