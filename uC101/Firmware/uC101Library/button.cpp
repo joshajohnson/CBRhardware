@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "uC101.h"
+#include "UC101.h"
 #include "button.h"
 #include <avr/sfr_defs.h>
 
