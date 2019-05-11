@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000) (preloaded format=pdflatex 2019.5.11)  11 MAY 2019 00:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000) (preloaded format=pdflatex 2019.5.11)  11 MAY 2019 14:31
 entering extended mode
 **./uC101.tex
 (uC101.tex
@@ -1123,7 +1123,7 @@ Package rerunfilecheck Info: File `uC101.out' has not changed.
 Here is how much of TeX's memory you used:
  17951 strings out of 494857
  343410 string characters out of 3178292
- 413112 words of memory out of 3000000
+ 413114 words of memory out of 3000000
  21109 multiletter control sequences out of 15000+200000
  15303 words of font info for 56 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -1138,7 +1138,7 @@ h/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssi10.pfb></home/josh
 /.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssi8.pfb></home/josh/.
 miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/josh/.mi
 ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on uC101.pdf (31 pages, 3014662 bytes).
+Output written on uC101.pdf (31 pages, 3014654 bytes).
 PDF statistics:
  1082 PDF objects out of 1200 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)

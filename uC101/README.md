@@ -3,7 +3,7 @@ Project files for an intro to microcontrollers workshop.
 
 ### To get up and running:
 Install Arduino IDE  
-Copy the uC101Library folder to `Documents/Arduino/libraries`  
+Copy the uC101Library folder to `/Arduino/libraries`  
 In Arduino IDE:  
 `File->Examples->uC101->blink`  
 `Tools->Board->Arduino Nano`  
