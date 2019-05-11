@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "UC101.h"
+#include "uC101.h"
 #include "timer.h"
 #include <avr/interrupt.h>
 #include <avr/sfr_defs.h>

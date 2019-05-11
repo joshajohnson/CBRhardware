@@ -17,8 +17,8 @@
 
 #define CHARLIE_1 	PC3
 #define CHARLIE_2 	PC2
-#define CHARLIE_3 	PC1
-#define CHARLIE_4 	PC0
+#define CHARLIE_3 	PC0
+#define CHARLIE_4 	PC1
 
 #define UART_RX 	PD0
 #define UART_TX 	PD1
