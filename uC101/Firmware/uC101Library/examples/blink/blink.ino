@@ -33,9 +33,9 @@ void loop() {
 //  _delay_ms(500);
 //  PORTD |= (1<<3);		// Red LED High
 //  _delay_ms(500);
-////  PORTD &= ~_BV(1<<3); 	// Toggle High/Low
-////  _delay_ms(500);
-////  PORTD |= _BV(1<<3);
+////PORTD &= ~_BV(3); 	// Toggle High/Low
+////_delay_ms(500);
+////PORTD |= _BV(3);
 ////  _delay_ms(500);
 //}
 
@@ -54,12 +54,12 @@ void loop() {
 //
 //void loop() 
 //{
-////  setBit(LED_RED_PORT,LED_RED);
-////  _delay_ms(500);
-////  clearBit(LED_RED_PORT,LED_RED);
-////  _delay_ms(500);
-//  toggleBit(LED_RED_PORT,LED_RED);
+//  setBit(LED_RED_PORT,LED_RED);
 //  _delay_ms(500);
+//  clearBit(LED_RED_PORT,LED_RED);
+//  _delay_ms(500);
+////  toggleBit(LED_RED_PORT,LED_RED);
+////  _delay_ms(500);
 //}
 
 //////////////////////////////////////////////////////////////
@@ -169,7 +169,7 @@ void loop() {
 //
 //void loop() 
 //{
-//  if (button1.rising)
+//  if (button1.rising) 	// Toggle LED with inbulit functions
 //  {
 //    button1.rising = 0;
 //    ledOn(LED_BLUE);
@@ -182,7 +182,7 @@ void loop() {
 //
 //  if (button2.rising)
 //  {
-//    button2.rising = 0;
+//    button2.rising = 0;	// Toggle LED with port/bit manipulation 
 //    ledOn(LED_BLUE);
 //    _delay_ms(1);
 //    ledOff(LED_BLUE);

@@ -53,7 +53,7 @@ void loop() {
 //
 //ISR(INT0_vect)
 //{
-//  // DONT EVER DO THIS
+//  // DONT DO THIS
 //  cli();
 //  ledToggle(LED_RED);
 //  _delay_ms(500); 
