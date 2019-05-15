@@ -26,8 +26,10 @@ Run `blink.ino` and confirm that the onboard LED is blinking
 ### Troubleshooting:
 
 #### Windows
-If after installing the Arduino software, you are missing a virtual COM port to communicate with your board, and the Device Manager is missing the usb2.0-serial driver, see the following page to resolve:
+If after installing the Arduino software, you are missing a virtual COM port to communicate with your board, and the Device Manager is missing the usb2.0-serial driver, install the below driver:
 
-https://www.asensar.com/article/electronics/arduino-not-detected.html
+http://www.wch.cn/download/CH341SER_ZIP.html
 
 This is due to a CH340G USB to serial chip being used on the Arduino Nano.
+
+(Thanks Wayne for the above fix!)
