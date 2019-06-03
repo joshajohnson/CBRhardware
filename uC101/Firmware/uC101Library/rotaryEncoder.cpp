@@ -4,7 +4,7 @@
 #include <avr/sfr_defs.h>
 #include <avr/interrupt.h>
 
-#define CTC_MATCH_OVERFLOW_ENCODER 8 // Compare value for TIMER1
+#define CTC_MATCH_OVERFLOW_ENCODER  8 // Compare value for TIMER1
 
 // For  state machine
 #define IDLE 	0b00000000
@@ -116,6 +116,7 @@ void encoderFSM(struct encoderStruct *encoder)
 
 		case CW4:
 			encoder->clockwise = 1;
+			Serial.Println("Clockwise");
 			state = IDLE;
 			break;
 
@@ -149,6 +150,7 @@ void encoderFSM(struct encoderStruct *encoder)
 
 		case CCW4:
 			encoder->antiClockwise = 1;
+			Serial.Println("antiClockwise");
 			state = IDLE;
 			break;
 
