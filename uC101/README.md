@@ -14,7 +14,7 @@ Run `blink.ino` and confirm that the onboard LED is blinking
 
 ### Resources:   
 
-[Embedded FM Podcast](embeddedfm.com) Look through old episodes for fundamentals  
+[Embedded FM Podcast](embedded.fm) Look through old episodes for fundamentals  
 [Making Embedded Systems](http://shop.oreilly.com/product/0636920017776.do) Josh has a copy you can borrow  
 [Google 'problem' + avr](http://lmgtfy.com/?q=problem+avr)  
 [Adafruit](https://www.adafruit.com/) [Sparkfun](https://www.sparkfun.com/) HW and SW resources  
