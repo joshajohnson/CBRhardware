@@ -243,7 +243,7 @@ From @TubeTimeUS on twitter
 	\item Datasheet / application notes
 	\begin{itemize}
 		\item Google is your friend.
-		\item Datasheets typically have a recommended schematic 1/3 down. 
+		\item Datasheets typically have a recommended schematic 2/3 down. 
 		\item Application notes go into more detail regarding function of the device and different configurations. 
 		\item Manufacturer probably has an evaluation board with schematics available.
 	\end{itemize}
@@ -293,7 +293,7 @@ From @TubeTimeUS on twitter
  \begin{itemize}
  	\item Serial
  	\begin{itemize} 
- 		\item Serial is the easiest method, but will require USB <-> Serial converter. 
+ 		\item Serial is the easiest method, but will require USB to Serial converter. 
  		\item Can place converter on board with USB connector, or leave header exposed and use dedicated cable.
  		\item Flashing with a serial bootloader is common, e.g. Arduino series. 
  		\item May require reset circuit for serial programming with bootloader. 
@@ -302,7 +302,7 @@ From @TubeTimeUS on twitter
  	\begin{itemize}
  		\item USB bootloaders allow for updating over a USB cable, no other parts required. 
  		\item If you device has native USB, setting it up as a virtual COM port makes computer think it is a serial port. 
- 		\item Can also do HID emulation to pretend to be a keyboard/mouse. 
+ 		\item Can also do HID emulation to pretend to be a keyboard/mouse/drive. 
  	\end{itemize}
  	\item Wireless
  	\begin{itemize}
@@ -326,8 +326,8 @@ From @TubeTimeUS on twitter
 	\end{itemize}
 	\item Voltage regulation
 	\begin{itemize}
-		\item Low current OR small input -> output difference: linear regulator.
-		\item High current OR large input -> output difference OR output > input: switchmode supply.
+		\item Low current OR small input $->$ output difference: linear regulator.
+		\item High current OR large input $->$ output difference OR output $>$ input: switchmode supply.
 	\end{itemize}
 	\item Rechargeable batteries.
 	\begin{itemize}
@@ -430,7 +430,7 @@ From @TubeTimeUS on twitter
 
 
 \begin{frame}
-\frametitle{</talk>}
+\frametitle{The End}
 
 Say Hello! \\
 BSidesCbr Slack: josh\\
