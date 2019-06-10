@@ -6,4 +6,6 @@ We will be going over how to to take a bunch of breakout boards with wires flyin
 Hope to see everyone there!
 
 ## Resources
-[How to Draw Schematic](https://www.youtube.com/watch?v=lF0UgVQnZ5M)
+[Ben Eater - 8 Bit Computer, Communications](https://www.youtube.com/user/eaterbc/videos)
+[NYC CNC - Machining and Fusion360](https://www.youtube.com/user/saunixcomp/videos)
+[Digital Logic - EEVBlog](https://www.youtube.com/watch?v=7bVnsXHO6Uw)
