@@ -1,0 +1,21 @@
+\frametitle{rotaryEncoder.ino}
+\textbf{Rotary Encoder Code}
+
+\begin{verbatim}
+(onB && risingA) ? clockwise = 1 : clockwise = 0;
+(onB && fallingA) ? antiClockwise = 1 : antiClockwise = 0;
+\end{verbatim}
+or
+\begin{verbatim}
+(onB && risingA) ? clockwise = 1 : clockwise = 0;
+(onA && risingB) ? antiClockwise = 1 : antiClockwise = 0;
+\end{verbatim}
+or
+\begin{verbatim}
+(fallingA && onB) ? clockwise = 1 : clockwise = 0;
+(fallingA && offB) ? antiClockwise = 1 : antiClockwise = 0;
+\end{verbatim}
+
+all are functionally identical, however last one can be pin interrupt driven
+
+
