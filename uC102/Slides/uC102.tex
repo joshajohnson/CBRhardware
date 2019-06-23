@@ -397,8 +397,63 @@ Internal architecture of an IC supporting JTAG.
 	\item Manufactures implement their own commands which can be called by JTAG to set breakpoints, read registers etc.
 	\item Due to use in production, JTAG often left exposed on PCB with no protections. 
 	\item This allows user to control JTAG device if they have physical access. 
-	\item Devices (e.g. ATmega) may have JTAG, but may not be used. ICSP (In Circuit Serial Programming) used instead. 
+	\item Devices (e.g. ATmega) may have JTAG, but may not be used. ICSP (In Circuit Serial Programming) utilised instead to program device. 
 \end{itemize}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{Analog to Digital Converter}
+\begin{itemize}
+	\item Converts an analogue signal to a digital representation. 
+	\item More bits = better representation of signal. 
+	\begin{itemize}
+		\item E.g. 10 bits at VREF = 5V = 4.8mV resolution.
+		\item E.g. 16 bits at VREF = 3V3 = 50$\mu$V resolution. 
+	\end{itemize}
+	\item Conversion takes time, on AVR it is 13 clock cycles. 
+\end{itemize}
+
+\begin{figure}
+	\includegraphics[width=0.6\linewidth]{analogVSdigital.png}
+\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{ADC}
+\begin{itemize}
+	\item Two most common: successive approximation register and sigma-delta.
+	\begin{itemize}
+		\item SAR converters are faster, but lower resolution. (1 MSPS, 12-16 bits).
+		\item S-D are slower, but much higher resolution (100 kSPS, 16-24 bits).
+	\end{itemize}
+	\item Need to ensure output impedance to ADC is low enough, otherwise not enough current will flow into S/H capacitor.
+	\item If sampling time varying signals, ensure no signal components higher than Nyquist. 
+\end{itemize}
+
+\begin{figure}
+	\includegraphics[width=0.6\linewidth]{sar.jpg}
+\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{ADC}
+\textbf{Voltage to ADC bits}
+\begin{align*}
+\text{ADC Bits} = \frac{V_{\text{IN}} \cdot 2^N}{V_{\text{REF}}}
+\end{align*}
+
+\textbf{Voltage from ADC bits}
+\begin{align*}
+\text{Voltage} = \frac{\text{ADC Bits} \cdot V_{\text{REF}}}{2^N}
+\end{align*}
+Where $N$ is the number of bits. 
 
 \end{frame}
 
