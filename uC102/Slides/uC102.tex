@@ -73,12 +73,13 @@
 %\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
 %\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
 
-%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
 
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage{fancyvrb} % Tabs in verbatim
+\usepackage{ulem} % Strikeout
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -128,7 +129,7 @@ Project Files: \url{github.com/joshajohnson/CBRhardware}\\
 \begin{itemize}
 	\item Typically an embedded processor communicating with peripherals.
 	\item Typically single master, multiple slave system.
-	\item Multi master (eg CAN) does exist, out of scope for today.
+	\item Multi master (eg CAN, some I2C) does exist, out of scope for today.
 	\item UART/SPI/I2C is probably over 99\% of embedded communications.
 \end{itemize}
 \vspace{5mm}
@@ -224,7 +225,7 @@ Ben Eater: https://youtu.be/eq5YpKHXJDM?t=1590 (26:30 in)
 %----------------------------------------------------------------------------------------
 
 \begin{frame}[t]
-\frametitle{How to Debug}
+\frametitle{Tangent: How to Debug}
 \begin{itemize}
 	\item Oscilloscope
 	\item Logic Analyser
@@ -334,16 +335,66 @@ Used in car keyfobs, 10Base-T ethernet (IEEE 802.3), amongst others.
 \end{columns}
 \end{frame}
 
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{I2C}
+\begin{itemize}
+	\item Single or multi master, multiple slave, half duplex interface.
+	\item Two wires, SDA (Serial Data) and SCL (Serial Clock).
+	\item Also goes by TWI (two wire interface) due do licencing issues.
+	\item Each device on I2C line has an unique address. 
+	\item Open drain, requires pull up resistors.
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=\linewidth]{i2cBus.png}
+\end{figure}
+
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{Inter-Integrated Circuit}
+\begin{itemize}
+	\item Communication begins buy asserting SDA, then SCL low.
+	\item 7 bit unique address, many devices will have a pin to change LSB(s). 
+	\item Last bit in address (8) is a read / nWrite bit. 
+	\item Slave will acknowledge by asserting line low. 
+	\item Data then sent, followed by data received if required. 
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.7\linewidth]{i2c.png}
+\end{figure}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[t]
+\frametitle{I2C}
+\begin{itemize}
+	\item This multiple drop configuration works due to an open drain (TTL: collector) system. 
+	\item Device can only assert line low, pull up resistors required to pull high.  
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.5\linewidth]{openDrain.png}
+\end{figure}
+
+\end{frame}
+
 %----------------------------------------------------------------------------------------
 
 \begin{frame}[t]
 \frametitle{Joint Test Action Group}
 \begin{itemize}
-	\item 4 wires, TCK, TDI, TDO, TMS.
+	\item 4 wires, TCK, TDI, TDO, TMS (nRST).
 	\item Serial connection similar to SPI, however devices are daisy chained. 
 	\item Originally designed to test complicated (BGA, high density) boards.
 	\item Later used to program and debug ICs.
-	\item SWD uses a reduced pin count version of JTAG with two wires (SWDIO, SWCLK). 
+	\item SWD uses a variation of reduced pin count JTAG (cJTAG) with two wires (SWDIO, SWCLK). 
 \end{itemize}
 \begin{figure}
 	\includegraphics[width=0.7\linewidth]{jtagChain.png}
@@ -382,6 +433,7 @@ Internal architecture of an IC supporting JTAG.
 	\begin{figure}
 		\includegraphics[width=\linewidth]{boundaryScanFaults.png}
 	\end{figure}
+	EXAMPLES
 \end{columns}
 
 \end{frame}
@@ -466,8 +518,9 @@ Links to resources: \texttt{uC102/README.md}
 
 \textbf{Next month}
 \begin{itemize}
-	\item Further PCB Design / Manufacturing / KiCad
-	\item Intro to FPGA
+	\item Further PCB Design / Manufacturing / Design / KiCad
+	\item Hands on FPGA
+	\item \sout{Josh complaining about firmwarek} Project talks 
 	\item Someone else's talk!
 \end{itemize}
 
