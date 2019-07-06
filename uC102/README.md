@@ -14,7 +14,7 @@ Run `blink.ino` and confirm that the onboard LED is blinking
 
 ### Resources:   
 
-[Ben Eater](https://www.youtube.com/watch?v=eq5YpKHXJDM)
+[Ben Eater](https://www.youtube.com/watch?v=eq5YpKHXJDM)  
 [SPI Overview (ADI)](https://www.analog.com/en/analog-dialogue/articles/introduction-to-spi-interface.html)
 
 ### Troubleshooting:
