@@ -24,9 +24,11 @@ The [uC102](/uC102) folder contains resources which will be used.
 |Date|Topic|
 |-|-|
 |8/7/19|uC102: Embedded Communication Protocols / ADC|
-|TBD|Intro to FPGA|
+|TBD|Project Talks|
+|TBD|Someone else's talk!|
 |TBD|Further PCB Design / Manufacturing / KiCad|
-|NOV/DEC|Intro to RF / Designing a low cost Vector Network Analyser|
+|TBD|FPGA Workshop|
+|NOV/DEC| RF Basics / Designing a low cost Vector Network Analyser|
 
 ### Past Events
 

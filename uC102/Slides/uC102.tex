@@ -254,7 +254,7 @@ Note the low voltage of 1.4V, not the 0 we expected.
 \begin{itemize}
 	\item Synchronous, full duplex master-slave-based interface.
 	\item 4 wires, SCLK, MOSI, MISO, nCS.
-	\item Data is synchronised on rising or falling clock edge.
+	\item Data is clocked on rising or falling clock edge.
 	\item Single master, data simultaneously transmitted in and out.
 	\begin{itemize}
 		\item Clock Polarity (CPOL)
@@ -300,6 +300,7 @@ Datasheet Time!
 \begin{itemize}
 	\item APA102 addressable LEDs
 	\item MAX2871 PLL 
+	\item SKY12347 RF Attenuator 
 \end{itemize}
 
 \end{frame}
@@ -308,7 +309,7 @@ Datasheet Time!
 
 \begin{frame}[t]
 \frametitle{Tangent: Manchester Encoding}
-Manchester encoding integrates a clock into the transmitted signal, however halves the bandwidth. \\
+Manchester encoding integrates a clock into the transmitted signal. \\
 \begin{figure}
 	\includegraphics[width=0.9\linewidth]{manchester.png}
 \end{figure}
@@ -359,7 +360,7 @@ Used in car keyfobs, 10Base-T ethernet (IEEE 802.3), amongst others.
 \begin{frame}[t]
 \frametitle{Inter-Integrated Circuit}
 \begin{itemize}
-	\item Communication begins buy asserting SDA, then SCL low.
+	\item Communication begins by asserting SDA, then SCL low.
 	\item 7 bit unique address, many devices will have a pin to change LSB(s). 
 	\item Last bit in address (8) is a read / nWrite bit. 
 	\item Slave will acknowledge by asserting line low. 
@@ -390,7 +391,7 @@ Used in car keyfobs, 10Base-T ethernet (IEEE 802.3), amongst others.
 \begin{frame}[t]
 \frametitle{Joint Test Action Group}
 \begin{itemize}
-	\item 4 wires, TCK, TDI, TDO, TMS (nRST).
+	\item 4 wires, TCK, TDI, TDO, TMS, (nRST).
 	\item Serial connection similar to SPI, however devices are daisy chained. 
 	\item Originally designed to test complicated (BGA, high density) boards.
 	\item Later used to program and debug ICs.
@@ -444,12 +445,12 @@ Internal architecture of an IC supporting JTAG.
 \frametitle{JTAG}
 \textbf{Programming / Debugging}
 \begin{itemize}
-	\item Can be used to program flash / configure FPGA / etc.
+	\item Can be used to program flash / configure devices / etc.
 	\item Low level connections into IC allow for register level debug.
 	\item Manufactures implement their own commands which can be called by JTAG to set breakpoints, read registers etc.
 	\item Due to use in production, JTAG often left exposed on PCB with no protections. 
 	\item This allows user to control JTAG device if they have physical access. 
-	\item Devices (e.g. ATmega) may have JTAG, but may not be used. ICSP (In Circuit Serial Programming) utilised instead to program device. 
+	\item Devices (e.g. newer ATmega) may have JTAG, but may not be used. ICSP (In Circuit Serial Programming) utilised instead to program device. 
 \end{itemize}
 
 \end{frame}
@@ -465,6 +466,7 @@ Internal architecture of an IC supporting JTAG.
 		\item E.g. 10 bits at VREF = 5V = 4.8mV resolution.
 		\item E.g. 16 bits at VREF = 3V3 = 50$\mu$V resolution. 
 	\end{itemize}
+	\item Effective number of bits (ENOB) need to be accounted for. 
 	\item Conversion takes time, on AVR it is 13 clock cycles. 
 \end{itemize}
 
@@ -519,9 +521,11 @@ Links to resources: \texttt{uC102/README.md}
 \textbf{Next month}
 \begin{itemize}
 	\item Further PCB Design / Manufacturing / Design / KiCad
-	\item Hands on FPGA
-	\item \sout{Josh complaining about firmwarek} Project talks 
+	\item Project talks 
 	\item Someone else's talk!
+	\item Hands on FPGA - Workshop
+	\item RF Basics / Designing a low cost Vector Network Analyser 
+
 \end{itemize}
 
 \vspace{5mm}
