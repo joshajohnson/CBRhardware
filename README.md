@@ -20,10 +20,11 @@ We will also discuss tools and how to use them to achieve the above mentioned de
 |Date|Topic|
 |-|-|
 |12/8/19|Further PCB Design / Manufacturing / KiCad|
+|TBD|FPGA Workshop|
+|TBD|RF Basics / Measurement|
 |TBD|Project Talks|
 |TBD|Someone else's talk!|
-|TBD|FPGA Workshop|
-|NOV/DEC| RF Basics / Designing a low cost Vector Network Analyser|
+|NOV/DEC|Designing a low cost Vector Network Analyser|
 
 ### Past Events
 
@@ -33,16 +34,6 @@ We will also discuss tools and how to use them to achieve the above mentioned de
 |13/5/19|uC101: Intro to Microcontrollers / How to interface to the real world|
 |10/6/19|Breadboard to PC Board|
 |8/7/19|uC102: Embedded Communication Protocols / ADC|
-
-## 8/7/19 - uC102: Embedded Communication Protocols / ADC
-
-Following on from uC101 in which the low level functions of a microcontroller were explored, this workshop will delve into how embedded devices communicate, along with touching on Analog to Digital Converters. 
-
-UART, SPI, I2C, and JTAG will all be discussed, along with writing code and communicating with UART, SPI, and I2C devices.
-
-Please bring along a laptop with the [Arduino IDE](https://www.arduino.cc/en/main/software) installed. 
-Josh will have the installer files on the night as well. 
-The [uC102](/uC102) folder contains resources which will be used.
 
 ## 8/4/19 - Intro to KiCad / How to design a PCB
 
@@ -73,3 +64,13 @@ The [uC101](/uC101) folder contains resources which will be used.
 Prototyped a circuit on a breadboard, and want to get it onto a printed cicruit board but not sure how? If so this talk is for you!  
 We will be going over how to to take a bunch of breakout boards with wires flying between them and get it onto a professional looking PCB.  
 Multiple common microcontrollers, breakout boards, and other handy components will be covered, allowing you to take your electronic design to the next level. 
+
+## 8/7/19 - uC102: Embedded Communication Protocols / ADC
+
+Following on from uC101 in which the low level functions of a microcontroller were explored, this workshop will delve into how embedded devices communicate, along with touching on Analog to Digital Converters. 
+
+UART, SPI, I2C, and JTAG will all be discussed, along with writing code and communicating with UART, SPI, and I2C devices.
+
+Please bring along a laptop with the [Arduino IDE](https://www.arduino.cc/en/main/software) installed. 
+Josh will have the installer files on the night as well. 
+The [uC102](/uC102) folder contains resources which will be used.

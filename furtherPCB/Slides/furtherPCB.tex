@@ -84,7 +84,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[furtherPCB]{furtherPCB} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[furtherPCB]{Further PCB Design and Manufacturing} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Josh Johnson} % Your name
 \institute[] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -138,8 +138,8 @@ My proposal is:
 	\item Impedance control
 	\item Differential Pairs
 	\item Cutting edge processes
-	\item Random KiCad things
 	\item Panellisation
+	\item Random KiCad things
 	\item Layout Tips
 	\item Layout Review
 \end{itemize}
@@ -153,12 +153,33 @@ PCBs are often 2 or 4 layers, but 8-16 is common for phones / motherboards / GPU
 		\begin{itemize}
 			\item Allows for low impedance supply and return of currents
 			\item Not only required for function of devices, but to pass emissions testing
-			\item Many different ways to design multilayer boards, will be shown later
+			\item Many different stackups, both material, spacing, and layer assignment (signal / gnd / power)
 		\end{itemize}
 	\item More layers to route signals
 	\item Required for BGA fanout
 	\item Impedance control
 \end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{PCB Stackup}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{6layer.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{PCB Stackup}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{crossSection1.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{PCB Stackup}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{crossSection2.jpg}
+	\end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
@@ -211,9 +232,16 @@ PCB transmission line\\
 \end{figure}
 To calculate, use tools such as TXLine or Saturn PCB Toolkit\\
 \vspace{2mm}
-At higher frequencies, (> 2GHz) FR4's dialectic constant changes + has high loss\\
-Materials such as PTFE, Rogers (glass reinforced hydrocarbon/ceramics) are better suited to higher frequency applications \\
-Packing and orientation of glass weave can also play a part 
+At higher frequencies, (above 2GHz) FR4 has high loss\\
+Materials such as PTFE, Rogers 4003C / 4350B (glass reinforced hydrocarbon/ceramics) are better suited to higher frequency applications \\
+Packing and orientation of glass weave can also play a part, along with surface roughness due to skin effect 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Glass Weave}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{glassWeave.jpg}
+	\end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
@@ -247,10 +275,34 @@ Return current?\\
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
+	\frametitle{Path of least impedance}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{1khz.png}
+		\caption{Currents for a 1kHz signal flow. The ground current primarily flows directly from the load to the source in a straight line, as indicated by the narrow yellow line.}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Path of least impedance}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{50khz.png}
+		\caption{Current for a 50kHz signal flowing primarily along the signal trace and, to a lesser extent, directly from load to source.}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Path of least impedance}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{1mhz.png}
+		\caption{Current paths with a 1MHz signal. Virtually all the return ground current is flowing along the path of the signal trace}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
 \frametitle{Impedance Controlled Traces}
 Confirming correct Impedance?\\
 \begin{itemize}
-	\item Follow fabricators guidelines NOT TXLine etc tools - they know their process best
+	\item Follow fabricators guidelines (NOT TXLine etc) they know their process best
 	\item Board houses do what is known as 'Etch Compensation' to ensure traces stay at required impedance
 	\item They can also make a test coupon, and measure with a TDR to ensure correct dimensions
 \end{itemize}
@@ -258,10 +310,158 @@ Confirming correct Impedance?\\
 	\includegraphics[width=\linewidth]{testCoupon.jpg}
 \end{figure}
 \end{frame}
+\begin{frame}
+	\frametitle{Test Coupons}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{testCoupon_2.png}
+	\end{figure}
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-\frametitle{The End}
+\frametitle{Differential Pairs}
+Used on most high speed signals. Why?\\
+\begin{itemize}
+	\item Minimise crosstalk
+	\item Better functioning in noisy environments
+	\item Reduce electromagnetic interference 
+	\item Improvement in SNR
+	\item Isolation from power supplies
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.9\linewidth]{DiffPair_LengthTuning.png}
+\end{figure}
 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Cutting edge processes}
+	\begin{itemize}
+		\item Blind and buried vias 
+		\item Stacked microvias
+		\item Filled and capped vias
+		\item 2 thou (0.05 mm) trace and space
+		\item High density interconnect (HDI)
+		\item Greater than 10:1 aspect ratio vias (6:1 typical)
+		\item Up to 20oz copper (700um, compared to typical 35um)
+		\item Flex and rigid flex
+		\item Distributed element filters
+		\item Embedded passives
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{iPhone}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{iphone.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{iPhone}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{iphone2.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{HDI}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{crossSection3.png}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{High copper thickness}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{20ozCu.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Rigid Flex}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{rigidFlex.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Distributed Element Filters}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{distributedFilter.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Embedded Passives}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{embedded.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Panellisation}
+	Why do we panellise boards?\\
+	\begin{itemize}
+		\item To aide assembly - odd shaped or small boards cannot make it through a SMT line
+		\item To aide programming and test - boards can be gang programmed / tested
+		\item To get more boards for your money - either through sharing tooling charge between multiple people, or getting more boards under a dimension price break
+	\end{itemize}
+	How to break boards out?
+	\begin{itemize}
+		\item V-Scoring
+		\item Tab and route
+		\item Combination of both
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Panellisation}
+	\begin{figure}
+		\includegraphics[width=0.7\linewidth]{panel.jpg}
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Random KiCad Things}
+	\begin{itemize}
+		\item Library Management
+		\item Panellisation using kicad-util
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Layout Tips}
+	\begin{itemize}
+		\item Layout is 80\% placement, 20\% routing
+		\item Don't push design rules because you can - bigger is better
+		\item Place mounting holes and components first
+		\item Use polygons where practicable 
+		\item Keep traces as short at possible
+		\item Route key signals first
+		\item Snake tracks - point to point is not more efficient
+		\item Place decoupling caps close to power pins, smaller value closer
+		\item Series termination resistors close to driver
+		\item Tracks run into center of pads
+		\item No acute angles on traces
+		\item Multiple vias to stitch higher current nets
+		\item Ensure ground / power plane is not cut up, stitch multiple planes together with vias
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Layout Review}
+	\begin{itemize}
+		\item 2 layer Keyboard (mechanical constraints)
+		\item 4 layer VNA (RF)
+		\item 4 layer FPGA (somewhat dense)
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{The End}
+FPGA Workshop Thoughts?\\
+\vspace{5mm}
 Say Hello! \\
 BSidesCbr Slack: josh\\
 Twitter: @\textunderscore joshajohnson\\
