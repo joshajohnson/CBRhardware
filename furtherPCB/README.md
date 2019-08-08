@@ -7,3 +7,10 @@ We will also discuss tools and how to use them to achieve the above mentioned de
 Hope to see everyone there!
 
 ## Resources
+Check the ```Docs/```folder!  
+[PCB Design Tutorial PDF](https://alternatezone.com/electronics/files/PCBDesignTutorialRevA.pdf)  
+[Robert Feranec - Layout Videos](https://www.youtube.com/user/matarofe/videos)  
+[100 Hardware Design Tips](https://www.youtube.com/watch?v=ZpMvKJzZk90&list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO)    
+[Review of PCB Layout](https://www.youtube.com/watch?v=HZVod5AFrVI)  
+[OnTrack Podcast](http://podcast.altium.com/)  
+[Altium Resources](https://resources.altium.com/)
