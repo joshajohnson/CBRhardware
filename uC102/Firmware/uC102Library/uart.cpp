@@ -10,8 +10,8 @@ void uartInit(void)
   UBRR0H = (uint8_t)(UBRR_VALUE>>8);            // Baud Rate High
   UBRR0L = (uint8_t) UBRR_VALUE;                // Baud Rate Low
   UCSR0C = (0<<USBS0)|(3<<UCSZ00);              // 1 stop bit, 8 data, No parity (default)
-  // UCSR0B |= (1<<RXEN0)|(1<<TXEN0);              // Enable receiver and transmitter
-  UCSR0B |= (1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0);  // Enable receiver and transmitter and RX ISR
+  UCSR0B |= (1<<RXEN0)|(1<<¯TXEN0);              // Enable receiver and transmitter
+  // UCSR0B |= (1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0);  // Enable receiver and transmitter and RX ISR
 
   sei();
 }

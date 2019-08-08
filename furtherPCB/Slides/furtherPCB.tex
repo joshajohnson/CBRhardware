@@ -1,0 +1,275 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[t]{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[normalem]{ulem}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[furtherPCB]{furtherPCB} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Josh Johnson} % Your name
+\institute[] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{ \\ % Your institution for the title page
+\medskip
+\textit{} % Your email address
+}
+\date{12/8/2019} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+
+\begin{frame}
+\frametitle{FPGA Workshop?}
+My proposal is:
+\begin{itemize}
+	\item Two workshops
+	\begin{itemize}
+		\item WTFpga - Implementing a 7 segment decoder at your own pace
+		\item LED Matrix / UART / Simulation / FPGA Theory
+		\item Verilog only (no SystemVerilog / VHDL)
+	\end{itemize}
+	\item Requires Linux / Mac, may work on windows.
+	\begin{itemize}
+		\item Will provide untested instruction for windows which may require different workflow - pull requests welcomed 
+	\end{itemize}
+	\item FPGA hardware will be \$50
+	\begin{itemize}
+		\item iCE-40 FPGA in feather form factor
+		\item 7 Segment / DIP switch board
+		\item 6*6 LED Matrix / Buttons
+		\item Feather to dual PMOD (bare PCB)
+		\item Want to assemble your own? Can be organised!
+	\end{itemize}
+	\item Will get hardware to everyone before next meetup, so you can install toolchains / get to blinky at your own leisure 
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Overview}
+\begin{itemize}
+	\item Multilayer PCBs
+	\item Impedance control
+	\item Differential Pairs
+	\item Cutting edge processes
+	\item Random KiCad things
+	\item Panellisation
+	\item Layout Tips
+	\item Layout Review
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Multilayer PCBs}
+PCBs are often 2 or 4 layers, but 8-16 is common for phones / motherboards / GPUs etc. Why?
+\begin{itemize}
+	\item Dedicated power / ground planes
+		\begin{itemize}
+			\item Allows for low impedance supply and return of currents
+			\item Not only required for function of devices, but to pass emissions testing
+			\item Many different ways to design multilayer boards, will be shown later
+		\end{itemize}
+	\item More layers to route signals
+	\item Required for BGA fanout
+	\item Impedance control
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Via Technology}
+\begin{figure}
+	\includegraphics[width=\linewidth]{vias.png}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Impedance Controlled Traces}
+What is impedance?\\
+\begin{itemize}
+	\item the effective resistance of an electric circuit or component to alternating current, arising from the combined effects of ohmic resistance and reactance
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.5\linewidth]{impedance.png}
+\end{figure}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Impedance Controlled Traces}
+Why do we care?\\
+\begin{itemize}
+	\item Impedance mismatch results in reflections, which causes power loss and signal degradation 
+	\item Mismatches caused by incorrect track width, stubs, lack of termination resistors 
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.8\linewidth]{reflections.png}
+\end{figure}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Impedance Controlled Traces}
+Transmission line model\\
+\begin{figure}
+	\includegraphics[width=0.7\linewidth]{transmissionLine.png}
+\end{figure}
+Characteristic Impedance
+$$ Z_0 = \sqrt{\frac{L}{C}} $$
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Impedance Controlled Traces}
+PCB transmission line\\
+\begin{figure}
+	\includegraphics[width=0.8\linewidth]{microstrip.jpg}
+\end{figure}
+To calculate, use tools such as TXLine or Saturn PCB Toolkit\\
+\vspace{2mm}
+At higher frequencies, (> 2GHz) FR4's dialectic constant changes + has high loss\\
+Materials such as PTFE, Rogers (glass reinforced hydrocarbon/ceramics) are better suited to higher frequency applications \\
+Packing and orientation of glass weave can also play a part 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Impedance Controlled Traces}
+I'm designing a digital board, so I don't have to worry about this?\\
+\begin{columns}
+	\column{.5\textwidth}
+	\begin{figure}
+		\includegraphics[width=0.7\linewidth]{squareFFT.png}
+	\end{figure}
+
+	\column{.49\textwidth}
+	\begin{itemize}
+		\item Bandwidth = $\frac{0.34}{t_{rise}}$
+		\item Dependent on rise / fall times, not frequency (although higher frequencies do require faster edges)
+	\end{itemize}
+\end{columns}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Impedance Controlled Traces}
+Return current?\\
+\begin{itemize}
+	\item Impedance controlled traces must be referenced to an unbroken plane (can be ground or power)
+	\item As return current takes path of least impedance, follows path of outbound current!
+	\item Slots, gaps, cut outs all result in return current taking a long path and emitting EMI
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.5\linewidth]{slot.png}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Impedance Controlled Traces}
+Confirming correct Impedance?\\
+\begin{itemize}
+	\item Follow fabricators guidelines NOT TXLine etc tools - they know their process best
+	\item Board houses do what is known as 'Etch Compensation' to ensure traces stay at required impedance
+	\item They can also make a test coupon, and measure with a TDR to ensure correct dimensions
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=\linewidth]{testCoupon.jpg}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{The End}
+
+Say Hello! \\
+BSidesCbr Slack: josh\\
+Twitter: @\textunderscore joshajohnson\\
+Email: josh@joshajohnson.com\\
+\vspace{4mm}
+
+Project Files: \url{github.com/joshajohnson/CBRhardware}\\
+\end{frame}
+
+
+\end{document} 
