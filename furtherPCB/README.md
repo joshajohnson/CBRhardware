@@ -8,6 +8,7 @@ Hope to see everyone there!
 
 ## Resources
 Check the ```Docs/```folder!  
+[iCE40 FPGA Repo](https://github.com/joshajohnson/iCE40-feather)
 [kicad-util](https://gitlab.com/dren.dk/kicad-util/)  
 [iBom](https://github.com/openscopeproject/InteractiveHtmlBom)  
 [Josh Kicad Lib](https://github.com/joshajohnson/josh-kicad-lib)  
