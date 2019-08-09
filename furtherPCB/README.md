@@ -8,6 +8,10 @@ Hope to see everyone there!
 
 ## Resources
 Check the ```Docs/```folder!  
+[kicad-util](https://gitlab.com/dren.dk/kicad-util/)  
+[iBom](https://github.com/openscopeproject/InteractiveHtmlBom)  
+[Josh Kicad Lib](https://github.com/joshajohnson/josh-kicad-lib)  
+[Michael Ossmann: Simple RF Ciruit Design](https://www.youtube.com/watch?v=TnRn3Kn_aXg)  
 [PCB Design Tutorial PDF](https://alternatezone.com/electronics/files/PCBDesignTutorialRevA.pdf)  
 [Robert Feranec - Layout Videos](https://www.youtube.com/user/matarofe/videos)  
 [100 Hardware Design Tips](https://www.youtube.com/watch?v=ZpMvKJzZk90&list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO)    
