@@ -1,0 +1,27 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGA_Xilinx_Artix7:XC7A15T-CPG236 U1
+U 1 1 5D455D87
+P 3550 4125
+F 0 "U1" H 3550 1150 50  0000 C CNN
+F 1 "XC7A15T-CPG236" H 3550 1059 50  0000 C CNN
+F 2 "Package_BGA:UFBGA-100_7x7mm_Layout12x12_P0.5mm" H 3550 4125 50  0001 C CNN
+F 3 "" H 3550 4125 50  0000 C CNN
+	1    3550 4125
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
