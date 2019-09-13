@@ -9,24 +9,15 @@ All skill levels welcome, and feel free to bring along any projects you are work
 
 If you have any suggestions about topics to discuss / changes to make, please get in touch.
 
-## 9/9/19 - WTFpga Workshop
-
-2 hour crash course in FPGAs and Verilog.
-
-Unlike most meetups where all you need to do is show up, this workshop will require software to be installed in advance and hardware to be acquired.
-
-Have a read of the [WTFpga Readme](WTFpga/README.md) and let Josh know if there are any questions.
+## 7/10/19 Topic: FPGA Workshop, continued. 
+Following on from the WTFpga workshop, we will discuss some of the key details about FPGA function, programming, debugging, and hopefully explain some of the questions which arose at the previous workshop. 
 
 ### Future Events 
 
 |Date|Topic|
 |-|-|
-|9/9/19|WTFpga Workshop|
-|14/10/19|More FPGA!|
-|TBD|RF Basics / Measurement|
-|TBD|Project Talks|
-|TBD|Someone else's talk!|
-|NOV/DEC|Designing a low cost Vector Network Analyser|
+|7/10/19|More FPGA!|
+|11/11/19|Designing a low cost Vector Network Analyser|
 
 ### Past Events
 
@@ -37,6 +28,7 @@ Have a read of the [WTFpga Readme](WTFpga/README.md) and let Josh know if there 
 |10/6/19|Breadboard to PC Board|
 |8/7/19|uC102: Embedded Communication Protocols / ADC|
 |12/8/19|Further PCB Design / Manufacturing / KiCad|
+|9/9/19|WTFpga Workshop|
 
 ## 8/4/19 - Intro to KiCad / How to design a PCB
 
@@ -83,3 +75,11 @@ The [uC102](/uC102) folder contains resources which will be used.
 A workshop delving into more detail about PCB design, including 4+ layer stack ups, impedance controlled traces and boards, layout tips, and looking at what the modern state of the art is in PCB manufacturing and assembly.
 
 We will also discuss tools and how to use them to achieve the above mentioned design considerations, followed by looking at some of Josh's projects and identifying where these techniques have been utilised.
+
+## 9/9/19 - WTFpga Workshop
+
+2 hour crash course in FPGAs and Verilog.
+
+Unlike most meetups where all you need to do is show up, this workshop will require software to be installed in advance and hardware to be acquired.
+
+Have a read of the [WTFpga Readme](WTFpga/README.md) and let Josh know if there are any questions.

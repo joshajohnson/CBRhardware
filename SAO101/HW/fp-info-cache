@@ -1,4 +1,4 @@
-16036077747085310
+16101186779951401
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -202,6 +202,69 @@ battery CR1225 coin cell
 0
 0
 0
+Battery
+Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles
+Panasonic CR-1025/VSK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-1025 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles
+Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-1220 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles
+Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-1632 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR2025-V1AK_Vertical_CircularHoles
+Panasonic CR-2025/V1AK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2025 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles
+Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2032 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR2354-VCN_Vertical_CircularHoles
+Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2354/VCN coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR2450-VAN_Vertical_CircularHoles
+Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2450 coin cell
+0
+2
+2
+Battery
+Battery_Panasonic_CR2477-VCN_Vertical_CircularHoles
+Panasonic CR-2477/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2477 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
+Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-3032 coin cell vertical
+0
+2
+2
 Button_Switch_Keyboard
 SW_Cherry_MX1A_1.00u_PCB
 Cherry MX keyswitch, MX1A, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -1203,6 +1266,13 @@ switch normally-open pushbutton push-button
 0
 4
 4
+Button_Switch_SMD
+SW_Push_1P1T_NO_6x6mm_H9.5mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
 Button_Switch_SMD
 SW_Push_1P1T_NO_CK_KMR2
 CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
@@ -10101,16 +10171,16 @@ connector JST AUH side entry
 7
 6
 Connector_JST
-JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical
-JST EH series connector, B02B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH side entry
+JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
+JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
 0
 2
 2
 Connector_JST
-JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
-JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH vertical
+JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical
+JST EH series connector, B02B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH side entry
 0
 2
 2
@@ -10129,13 +10199,6 @@ connector JST EH vertical
 3
 3
 Connector_JST
-JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical
-JST EH series connector, B4B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH vertical
-0
-4
-4
-Connector_JST
 JST_EH_B04B-EH-A_1x04_P2.50mm_Vertical
 JST EH series connector, B04B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH side entry
@@ -10143,16 +10206,23 @@ connector JST EH side entry
 4
 4
 Connector_JST
-JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical
-JST EH series connector, B5B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical
+JST EH series connector, B4B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH vertical
 0
-5
-5
+4
+4
 Connector_JST
 JST_EH_B05B-EH-A_1x05_P2.50mm_Vertical
 JST EH series connector, B05B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH side entry
+0
+5
+5
+Connector_JST
+JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical
+JST EH series connector, B5B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
 0
 5
 5
@@ -10262,16 +10332,16 @@ connector JST EH side entry
 16
 16
 Connector_JST
-JST_EH_S02B-EH_1x02_P2.50mm_Horizontal
-JST EH series connector, S02B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH top entry
+JST_EH_S2B-EH_1x02_P2.50mm_Horizontal
+JST EH series connector, S2B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH horizontal
 0
 2
 2
 Connector_JST
-JST_EH_S2B-EH_1x02_P2.50mm_Horizontal
-JST EH series connector, S2B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH horizontal
+JST_EH_S02B-EH_1x02_P2.50mm_Horizontal
+JST EH series connector, S02B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH top entry
 0
 2
 2
@@ -10290,13 +10360,6 @@ connector JST EH horizontal
 3
 3
 Connector_JST
-JST_EH_S4B-EH_1x04_P2.50mm_Horizontal
-JST EH series connector, S4B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH horizontal
-0
-4
-4
-Connector_JST
 JST_EH_S04B-EH_1x04_P2.50mm_Horizontal
 JST EH series connector, S04B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH top entry
@@ -10304,16 +10367,23 @@ connector JST EH top entry
 4
 4
 Connector_JST
-JST_EH_S5B-EH_1x05_P2.50mm_Horizontal
-JST EH series connector, S5B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+JST_EH_S4B-EH_1x04_P2.50mm_Horizontal
+JST EH series connector, S4B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH horizontal
 0
-5
-5
+4
+4
 Connector_JST
 JST_EH_S05B-EH_1x05_P2.50mm_Horizontal
 JST EH series connector, S05B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH top entry
+0
+5
+5
+Connector_JST
+JST_EH_S5B-EH_1x05_P2.50mm_Horizontal
+JST EH series connector, S5B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH horizontal
 0
 5
 5
@@ -12523,16 +12593,16 @@ connector JST XH side entry boss
 1
 1
 Connector_JST
-JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical
-JST XH series connector, B02B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry boss
+JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical
+JST XH series connector, B2B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical boss
 0
 2
 2
 Connector_JST
-JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical
-JST XH series connector, B2B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH vertical boss
+JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical
+JST XH series connector, B02B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry boss
 0
 2
 2
@@ -12551,13 +12621,6 @@ connector JST XH side entry
 2
 2
 Connector_JST
-JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical
-JST XH series connector, B3B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH vertical boss
-0
-3
-3
-Connector_JST
 JST_XH_B03B-XH-AM_1x03_P2.50mm_Vertical
 JST XH series connector, B03B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH side entry boss
@@ -12565,9 +12628,9 @@ connector JST XH side entry boss
 3
 3
 Connector_JST
-JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
-JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH vertical
+JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical
+JST XH series connector, B3B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical boss
 0
 3
 3
@@ -12579,16 +12642,23 @@ connector JST XH side entry
 3
 3
 Connector_JST
-JST_XH_B04B-XH-AM_1x04_P2.50mm_Vertical
-JST XH series connector, B04B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry boss
+JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
+JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
 0
-4
-4
+3
+3
 Connector_JST
 JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical
 JST XH series connector, B4B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH vertical boss
+0
+4
+4
+Connector_JST
+JST_XH_B04B-XH-AM_1x04_P2.50mm_Vertical
+JST XH series connector, B04B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry boss
 0
 4
 4
@@ -12677,16 +12747,16 @@ connector JST XH side entry boss
 7
 7
 Connector_JST
-JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical
-JST XH series connector, B7B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH vertical
+JST_XH_B07B-XH-A_1x07_P2.50mm_Vertical
+JST XH series connector, B07B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry
 0
 7
 7
 Connector_JST
-JST_XH_B07B-XH-A_1x07_P2.50mm_Vertical
-JST XH series connector, B07B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry
+JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical
+JST XH series connector, B7B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
 0
 7
 7
@@ -12705,16 +12775,16 @@ connector JST XH side entry boss
 8
 8
 Connector_JST
-JST_XH_B08B-XH-A_1x08_P2.50mm_Vertical
-JST XH series connector, B08B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry
+JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical
+JST XH series connector, B8B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
 0
 8
 8
 Connector_JST
-JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical
-JST XH series connector, B8B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH vertical
+JST_XH_B08B-XH-A_1x08_P2.50mm_Vertical
+JST XH series connector, B08B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry
 0
 8
 8
@@ -12838,13 +12908,6 @@ connector JST XH horizontal
 2
 2
 Connector_JST
-JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal
-JST XH series connector, S2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH horizontal
-0
-2
-2
-Connector_JST
 JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal
 JST XH series connector, S02B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
@@ -12852,12 +12915,12 @@ connector JST XH top entry
 2
 2
 Connector_JST
-JST_XH_S03B-XH-A-1_1x03_P2.50mm_Horizontal
-JST XH series connector, S03B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH top entry
+JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal
+JST XH series connector, S2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
 0
-3
-3
+2
+2
 Connector_JST
 JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal
 JST XH series connector, S3B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
@@ -12866,8 +12929,8 @@ connector JST XH horizontal
 3
 3
 Connector_JST
-JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal
-JST XH series connector, S03B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+JST_XH_S03B-XH-A-1_1x03_P2.50mm_Horizontal
+JST XH series connector, S03B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
 0
 3
@@ -12876,6 +12939,13 @@ Connector_JST
 JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal
 JST XH series connector, S3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH horizontal
+0
+3
+3
+Connector_JST
+JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal
+JST XH series connector, S03B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH top entry
 0
 3
 3
@@ -12894,16 +12964,16 @@ connector JST XH horizontal
 4
 4
 Connector_JST
-JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal
-JST XH series connector, S4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH horizontal
+JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal
+JST XH series connector, S04B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH top entry
 0
 4
 4
 Connector_JST
-JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal
-JST XH series connector, S04B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH top entry
+JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal
+JST XH series connector, S4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
 0
 4
 4
@@ -12936,16 +13006,16 @@ connector JST XH horizontal
 5
 5
 Connector_JST
-JST_XH_S6B-XH-A-1_1x06_P2.50mm_Horizontal
-JST XH series connector, S6B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH horizontal
+JST_XH_S06B-XH-A-1_1x06_P2.50mm_Horizontal
+JST XH series connector, S06B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH top entry
 0
 6
 6
 Connector_JST
-JST_XH_S06B-XH-A-1_1x06_P2.50mm_Horizontal
-JST XH series connector, S06B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH top entry
+JST_XH_S6B-XH-A-1_1x06_P2.50mm_Horizontal
+JST XH series connector, S6B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
 0
 6
 6
@@ -12978,16 +13048,16 @@ connector JST XH horizontal
 7
 7
 Connector_JST
-JST_XH_S7B-XH-A_1x07_P2.50mm_Horizontal
-JST XH series connector, S7B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH horizontal
+JST_XH_S07B-XH-A_1x07_P2.50mm_Horizontal
+JST XH series connector, S07B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH top entry
 0
 7
 7
 Connector_JST
-JST_XH_S07B-XH-A_1x07_P2.50mm_Horizontal
-JST XH series connector, S07B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH top entry
+JST_XH_S7B-XH-A_1x07_P2.50mm_Horizontal
+JST XH series connector, S7B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
 0
 7
 7
@@ -13006,13 +13076,6 @@ connector JST XH top entry
 8
 8
 Connector_JST
-JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal
-JST XH series connector, S8B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH horizontal
-0
-8
-8
-Connector_JST
 JST_XH_S08B-XH-A_1x08_P2.50mm_Horizontal
 JST XH series connector, S08B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
@@ -13020,16 +13083,23 @@ connector JST XH top entry
 8
 8
 Connector_JST
-JST_XH_S9B-XH-A-1_1x09_P2.50mm_Horizontal
-JST XH series connector, S9B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal
+JST XH series connector, S8B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH horizontal
 0
-9
-9
+8
+8
 Connector_JST
 JST_XH_S09B-XH-A-1_1x09_P2.50mm_Horizontal
 JST XH series connector, S09B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
+0
+9
+9
+Connector_JST
+JST_XH_S9B-XH-A-1_1x09_P2.50mm_Horizontal
+JST XH series connector, S9B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
 0
 9
 9
@@ -15073,7 +15143,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0215 (compatible alternatives: 43650-0216, 43650-0217), 2 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 2
 2
@@ -15087,7 +15157,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0315 (compatible alternatives: 43650-0316, 43650-0317), 3 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 3
 3
@@ -15101,7 +15171,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0415 (compatible alternatives: 43650-0416, 43650-0417), 4 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 4
 4
@@ -15115,7 +15185,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0515 (compatible alternatives: 43650-0516, 43650-0517), 5 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 5
 5
@@ -15129,7 +15199,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0615_1x06_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0615 (compatible alternatives: 43650-0616, 43650-0617), 6 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 6
 6
@@ -15143,7 +15213,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0715_1x07_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0715 (compatible alternatives: 43650-0716, 43650-0717), 7 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 7
 7
@@ -15157,7 +15227,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0815_1x08_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0815 (compatible alternatives: 43650-0816, 43650-0817), 8 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 8
 8
@@ -15171,7 +15241,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0915_1x09_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0915 (compatible alternatives: 43650-0916, 43650-0917), 9 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 9
 9
@@ -15185,7 +15255,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-1015_1x10_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-1015 (compatible alternatives: 43650-1016, 43650-1017), 10 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 10
 10
@@ -15199,7 +15269,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-1115_1x11_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-1115 (compatible alternatives: 43650-1116, 43650-1117), 11 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 11
 11
@@ -15213,7 +15283,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-1215_1x12_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-1215 (compatible alternatives: 43650-1216, 43650-1217), 12 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 12
 12
@@ -37076,8 +37146,8 @@ RJ45_Wuerth_7499010121A_Horizontal
 10/100Base-TX RJ45 ethernet magnetic transformer connector horizontal https://katalog.we-online.de/pbs/datasheet/7499010121A.pdf
 RJ45 ethernet magnetic
 0
-12
-12
+14
+13
 Connector_RJ
 RJ45_Wuerth_7499151120_Horizontal
 Wuerth 7499151120, LAN-Transformer WE-RJ45LAN 10/100/1000 BaseT, Dual Ethernet Jack (http://katalog.we-online.de/pbs/datasheet/7499151120.pdf)
@@ -40453,6 +40523,13 @@ USB-A
 6
 5
 Connector_USB
+USB_A_Molex_105057_Vertical
+https://www.molex.com/pdm_docs/sd/1050570001_sd.pdf
+USB A Vertical
+0
+7
+5
+Connector_USB
 USB_A_Wuerth_61400826021_Horizontal_Stacked
 Stacked USB A connector http://katalog.we-online.de/em/datasheet/61400826021.pdf
 Wuerth stacked USB_A
@@ -40633,6 +40710,20 @@ USB Mini-B 5-pin SMD connector, http://downloads.lumberg.com/datenblaetter/en/24
 USB USB_B USB_Mini connector
 0
 9
+6
+Connector_USB
+USB_Mini-B_Tensility_54-00023_Vertical
+http://www.tensility.com/pdffiles/54-00023.pdf
+usb mini receptacle vertical
+0
+7
+6
+Connector_USB
+USB_Mini-B_Tensility_54-00023_Vertical_CircularHoles
+http://www.tensility.com/pdffiles/54-00023.pdf
+usb mini receptacle vertical
+0
+7
 6
 Connector_Wago
 Wago_734-132_1x02_P3.50mm_Vertical
@@ -41126,8 +41217,8 @@ ACDC-Converter 3W
 14
 Converter_ACDC
 Converter_ACDC_MeanWell_IRM-03-xx_THT
-ACDC-Converter, 2W, Meanwell, IRM-02, THT, https://www.meanwell.co.uk/media/productPDF/IRM-02-spec.pdf
-ACDC-Converter 2W THT
+ACDC-Converter, 3W, Meanwell, IRM-03, THT, https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF
+ACDC-Converter 3W THT
 0
 5
 5
@@ -49141,14 +49232,14 @@ LED PLCC-2 SMD
 2
 LED_SMD
 LED_PLCC_2835
-http://www.everlight.com/file/ProductFile/67-21S-KK2C-H4040QAR32835Z15-2T.pdf
+https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf
 LED
 0
 2
 2
 LED_SMD
 LED_PLCC_2835_Handsoldering
-http://www.everlight.com/file/ProductFile/67-21S-KK2C-H4040QAR32835Z15-2T.pdf
+https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf
 LED
 0
 2
@@ -49888,6 +49979,13 @@ Omega Onion module
 0
 32
 32
+Module
+Onion_Omega2S
+https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
+onion omega module
+0
+89
+64
 Module
 Pololu_Breakout-16_15.2x20.3mm
 Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\
@@ -51205,6 +51303,13 @@ SMD SMT crystal oscillator
 4
 4
 Oscillator
+Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
+Miniature Crystal Clock Oscillator Abracon ASDMB series, 2.5x2.0mm package, http://www.abracon.com/Oscillators/ASDMB.pdf
+SMD SMT crystal oscillator
+0
+4
+4
+Oscillator
 Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm
 Miniature Crystal Clock Oscillator Abracon ASE series, http://www.abracon.com/Oscillators/ASEseries.pdf, 3.2x2.5mm^2 package
 SMD SMT crystal oscillator
@@ -51229,6 +51334,13 @@ Oscillator
 Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm_HandSoldering
 Miniature Crystal Clock Oscillator Abracon ASV series, http://www.abracon.com/Oscillators/ASV.pdf, hand-soldering, 7.0x5.1mm^2 package
 SMD SMT crystal oscillator hand-soldering
+0
+4
+4
+Oscillator
+Oscillator_SMD_Diodes_FN-4Pin_7.0x5.0mm
+FN Series Crystal Clock Oscillator (XO) (https://www.diodes.com/assets/Datasheets/FN_3-3V.pdf)
+Oscillator Crystal SMD SMT
 0
 4
 4
@@ -51519,6 +51631,13 @@ SMD SMT crystal oscillator hand-soldering
 0
 4
 4
+Package_BGA
+Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
+Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
+BGA 28 0.8
+0
+28
+28
 Package_BGA
 BGA-9_1.6x1.6mm_Layout3x3_P0.5mm
 BGA-9, http://www.ti.com/lit/ds/symlink/bq27421-g1.pdf
@@ -52171,6 +52290,20 @@ LFCSP NoLead
 26
 17
 Package_CSP
+LFCSP-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm
+LFCSP, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+21
+17
+Package_CSP
+LFCSP-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias
+LFCSP, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+26
+17
+Package_CSP
 LFCSP-16-1EP_3x3mm_P0.5mm_EP1.854x1.854mm
 16-Lead Lead Frame Chip Scale Package, 3x3mm, 0.5mm pitch, 1.854mm thermal pad (CP-16-22, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_16_22.pdf)
 LFCSP 16 0.5
@@ -52226,6 +52359,20 @@ LFCSP 0.5
 0
 37
 33
+Package_CSP
+LFCSP-64-1EP_9x9mm_P0.5mm_EP5.21x5.21mm
+LFCSP, 64 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_64_7.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+69
+65
+Package_CSP
+LFCSP-64-1EP_9x9mm_P0.5mm_EP5.21x5.21mm_ThermalVias
+LFCSP, 64 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_64_7.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+86
+65
 Package_CSP
 LFCSP-72-1EP_10x10mm_P0.5mm_EP5.3x5.3mm
 LFCSP, 72 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
@@ -52836,6 +52983,13 @@ DFN 0.5
 13
 11
 Package_DFN_QFN
+DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm
+DFN, 10 Pin (https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+15
+11
+Package_DFN_QFN
 DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm
 10-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
 DFN 0.5
@@ -53207,6 +53361,13 @@ DFN 0.5
 8
 8
 Package_DFN_QFN
+OnSemi_UDFN-8_1.2x1.8mm_P0.4mm
+8-Lead Plastic Dual Flat, No Lead Package, 1.2x1.8x1.55 mm Body [UDFN] (See http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF)
+dfn udfn dual flat
+0
+8
+8
+Package_DFN_QFN
 OnSemi_VCT-28_3.5x3.5mm_P0.4mm
 OnSemi  VCT, 28 Pin (http://www.onsemi.com/pub/Collateral/601AE.PDF), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 OnSemi VCT DFN_QFN
@@ -53294,6 +53455,20 @@ Package_DFN_QFN
 QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm_ThermalVias
 QFN, 16 Pin (http://cds.linear.com/docs/en/datasheet/37551fd.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
+0
+26
+17
+Package_DFN_QFN
+QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm
+QFN, 16 Pin (https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+21
+17
+Package_DFN_QFN
+QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm_ThermalVias
+QFN, 16 Pin (https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 26
 17
@@ -53462,6 +53637,20 @@ Package_DFN_QFN
 QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
 QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=164), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
+0
+30
+21
+Package_DFN_QFN
+QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm
+QFN, 20 Pin (https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+25
+21
+Package_DFN_QFN
+QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias
+QFN, 20 Pin (https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 30
 21
@@ -54544,6 +54733,20 @@ QFN NoLead
 43
 29
 Package_DFN_QFN
+Texas_RGE0024C_EP2.1x2.1mm
+Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/pca9548a.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas QFN NoLead
+0
+29
+25
+Package_DFN_QFN
+Texas_RGE0024C_EP2.1x2.1mm_ThermalVias
+Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/pca9548a.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas QFN NoLead
+0
+39
+25
+Package_DFN_QFN
 Texas_RGE0024H_EP2.7x2.7mm
 Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=43), generated with kicad-footprint-generator ipc_noLead_generator.py
 Texas QFN NoLead
@@ -54557,6 +54760,13 @@ Texas QFN NoLead
 0
 39
 25
+Package_DFN_QFN
+Texas_RNN0018A
+Texas Instruments, VQFN-HR RNN0018A (http://www.ti.com/lit/ds/symlink/tps568215.pdf)
+ti vqfn-hr rnn0018a
+0
+26
+18
 Package_DFN_QFN
 Texas_RUM0016A
 16 Pin WQFN - 4x4x0.8 mm Body; (see Texas Instruments Package Specification RUM0016A)
@@ -54852,6 +55062,20 @@ QFN NoLead
 39
 25
 Package_DFN_QFN
+Texas_S-PWQFN-N32_EP2.8x2.8mm
+QFN, 32 Pin (https://www.ti.com/lit/ds/symlink/bq25703a.pdf#page=91), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+37
+33
+Package_DFN_QFN
+Texas_S-PWQFN-N32_EP2.8x2.8mm_ThermalVias
+QFN, 32 Pin (https://www.ti.com/lit/ds/symlink/bq25703a.pdf#page=91), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+47
+33
+Package_DFN_QFN
 Texas_S-PWQFN-N100_EP5.5x5.5mm
 http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=szza059&fileType=pdf,http://www.ti.com/lit/ds/sllse76m/sllse76m.pdf
 MultiRow QFN
@@ -54932,6 +55156,13 @@ Package_DFN_QFN
 TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm
 TQFN, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0136.PDF (T1633-5), https://pdfserv.maximintegrated.com/land_patterns/90-0032.PDF), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 TQFN DFN_QFN
+0
+21
+17
+Package_DFN_QFN
+TQFN-16-1EP_5x5mm_P0.8mm_EP3.1x3.1mm
+TQFN, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0140.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+TQFN NoLead
 0
 21
 17
@@ -57891,10 +58122,17 @@ QFP 0.65
 80
 Package_QFP
 TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm
-100-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body 2.00 mm Footprint with Exposed Pad [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.5
+TQFP, 100 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_100_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP
 0
 117
+101
+Package_QFP
+TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm_ThermalVias
+TQFP, 100 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_100_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP
+0
+143
 101
 Package_QFP
 TQFP-100_12x12mm_P0.4mm
@@ -58702,6 +58940,13 @@ SO SOIC 2.54
 4
 4
 Package_SO
+SO-4_4.4x3.9mm_P2.54mm
+SO, 4 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=10047&prodName=TLP3123), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+4
+4
+Package_SO
 SO-4_4.4x4.3mm_P2.54mm
 4-Lead Plastic Small Outline (SO), see https://docs.broadcom.com/docs/AV02-0173EN
 SO SOIC 2.54
@@ -58857,8 +59102,15 @@ SOIC 1.27
 7
 Package_SO
 SOIC-8_3.9x4.9mm_P1.27mm
-8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)
-SOIC 1.27
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Package_SO
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 8
 8
@@ -58870,9 +59122,16 @@ SOIC 1.27
 14
 14
 Package_SO
+SOIC-14W_7.5x9mm_P1.27mm
+SOIC, 14 Pin (JEDEC MS-013AF, https://www.analog.com/media/en/package-pcb-resources/package/54614177245586rw_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+14
+14
+Package_SO
 SOIC-14_3.9x8.7mm_P1.27mm
-14-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
+SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 14
 14
@@ -58892,22 +59151,22 @@ SOIC 1.27
 16
 Package_SO
 SOIC-16W_7.5x10.3mm_P1.27mm
-16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
+SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 16
 16
 Package_SO
 SOIC-16W_7.5x12.8mm_P1.27mm
-16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm x 12.8 mm Body (http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF)
-SOIC 1.27
+SOIC, 16 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ri_soic_ic/ri_16_1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 16
 16
 Package_SO
 SOIC-16_3.9x9.9mm_P1.27mm
-16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
+SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 16
 16
@@ -58920,36 +59179,36 @@ SOIC SO
 16
 Package_SO
 SOIC-18W_7.5x11.6mm_P1.27mm
-18-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
+SOIC, 18 Pin (JEDEC MS-013AB, https://www.analog.com/media/en/package-pcb-resources/package/33254132129439rw_18.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 18
 18
 Package_SO
 SOIC-20W_7.5x12.8mm_P1.27mm
-20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
+SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 20
 20
 Package_SO
 SOIC-24W_7.5x15.4mm_P1.27mm
-24-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
+SOIC, 24 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RW_24.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 24
 24
 Package_SO
 SOIC-28W_7.5x17.9mm_P1.27mm
-28-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
+SOIC, 28 Pin (JEDEC MS-013AE, https://www.analog.com/media/en/package-pcb-resources/package/35833120341221rw_28.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 28
 28
 Package_SO
 SOIC-28W_7.5x18.7mm_P1.27mm
-28-Lead Plastic Small Outline (SO) - Wide, 7.50 mm X 18.7 mm Body [SOIC] (https://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf)
-SOIC 1.27
+SOIC, 28 Pin (https://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 28
 28
@@ -59240,6 +59499,13 @@ SSOP 0.635
 0
 56
 56
+Package_SO
+STC_SOP-16_3.9x9.9mm_P1.27mm
+STC  SOP, 16 Pin (https://www.stcmicro.com/datasheet/STC15F2K60S2-en.pdf#page=156), generated with kicad-footprint-generator ipc_gullwing_generator.py
+STC SOP SO
+0
+16
+16
 Package_SO
 ST_MultiPowerSO-30
 MultiPowerSO-30 3EP 16.0x17.2mm Pitch 1mm (http://www.st.com/resource/en/datasheet/vnh2sp30-e.pdf)
@@ -59654,6 +59920,13 @@ Fairchild-specific MicroPak2-6 1.0x1.0mm Pitch 0.35mm
 6
 6
 Package_SON
+HVSON-8-1EP_4x4mm_P0.8mm_EP2.2x3.1mm
+HVSON, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf (page 57)), generated with kicad-footprint-generator ipc_noLead_generator.py
+HVSON NoLead
+0
+13
+9
+Package_SON
 NXP_XSON-16
 http://www.nxp.com/documents/outline_drawing/SOT1341-1.pdf
 NXP XSON SOT-1341
@@ -59667,6 +59940,13 @@ ROHM VML0806
 0
 3
 3
+Package_SON
+RTC_SMD_MicroCrystal_C3_2.5x3.7mm
+MicroCrystal C3 2.5x3.7mm, https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-1805-C3.pdf
+RTC C3
+0
+10
+10
 Package_SON
 SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm
 SON, 8 Pin (http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
@@ -62488,34 +62768,6 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
-PogoFootprints
-PinHeader_1x05_P2.54mm_Horizontal
-Through hole angled pin header, 1x05, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x05 2.54mm single row
-0
-5
-5
-PogoFootprints
-PinHeader_2x03_P2.54mm_Horizontal
-Through hole angled pin header, 2x03, 2.54mm pitch, 6mm pin length, double rows
-Through hole angled pin header THT 2x03 2.54mm double row
-0
-6
-6
-PogoFootprints
-PinSocket_1x06_P2.54mm_Horizontal
-Through hole angled socket strip, 1x06, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated
-Through hole angled socket strip THT 1x06 2.54mm single row
-0
-6
-6
-PogoFootprints
-Pogo_Horiz
-
-
-0
-2
-1
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -63777,6 +64029,20 @@ Relay SPDT Potter&Brumfield T9AP5D52 12V 30A 1xUm Connector Fast ON Flachstecker
 0
 0
 Relay_THT
+Relay_SPDT_RAYEX-L90
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90 SPDT
+0
+6
+6
+Relay_THT
+Relay_SPDT_RAYEX-L90S
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90S SPDT
+0
+5
+5
+Relay_THT
 Relay_SPDT_SANYOU_SRD_Series_Form_C
 relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
 relay Sanyu SRD form C
@@ -63860,6 +64126,34 @@ Relau SPST Potter&Brumfield T9AP1D52 12V 30A 1xEin Connector Fast ON Flachstecke
 0
 0
 0
+Relay_THT
+Relay_SPST_RAYEX-L90A
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90A SPST NO
+0
+5
+5
+Relay_THT
+Relay_SPST_RAYEX-L90AS
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90AS SPST NO
+0
+4
+4
+Relay_THT
+Relay_SPST_RAYEX-L90B
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90B SPST NC
+0
+5
+5
+Relay_THT
+Relay_SPST_RAYEX-L90BS
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90BS SPST NC
+0
+4
+4
 Relay_THT
 Relay_SPST_SANYOU_SRD_Series_Form_A
 relay Sanyou SRD series Form A http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
@@ -65743,6 +66037,27 @@ rotary encoder
 0
 5
 4
+SAO101
+josh_img
+
+
+0
+0
+0
+SAO101
+SAO
+
+
+0
+4
+4
+SAO101
+SAO101_img
+
+
+0
+0
+0
 Sensor_Audio
 Infineon_PG-LLGA-5-1
 Infineon_PG-LLGA-5-1 StepUp generated footprint, https://www.infineon.com/cms/en/product/packages/PG-LLGA/PG-LLGA-5-1/
@@ -71364,20 +71679,13 @@ Transformer Toroid tapped horizontal laying Diameter 14mm Amidon T50
 0
 6
 6
-uC101
-PotentiometerAliExpress
-
-
+Transformer_THT
+Transformer_Wuerth_750343373
+Transformer, horizontal core with bobbin, 10 pin, 3.81mm pitch, 15.24mm row spacing, 22x23x17.53mm (https://katalog.we-online.com/ctm/datasheet/750343373.pdf)
+transformer flyback
 0
-3
-3
-uC101
-SAO
-
-
-0
-4
-4
+10
+10
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -72134,192 +72442,3 @@ varistor SIOV
 0
 2
 2
-VeinCam_Footprints
-10118193-0001LF
-
-
-0
-11
-6
-VeinCam_Footprints
-EG1213
-
-
-0
-3
-3
-VeinCam_Footprints
-PiCamera
-
-
-0
-0
-0
-VeinCam_Footprints
-PiCameraZero
-
-
-0
-0
-0
-VeinCam_Footprints
-PIRHAT_ZERO
-Raspberry Pi Zero W IR Hat, full outline with position of big connectors &amp; drill holes
-
-0
-0
-0
-VeinCam_Footprints
-QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm
-16-Lead Plastic Quad Flat, No Lead Package (ML) - 4x4x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
-QFN 0.65 4x4mm
-0
-30
-17
-VeinCam_Footprints
-QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf (Page 274)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-34
-21
-VeinCam_Footprints
-RPiZero_IR_Header
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-28
-28
-VeinCam_Footprints
-SFH7252
-
-
-0
-4
-4
-VeinCam_Footprints
-SRN6045
-
-
-0
-2
-2
-VeinCam_Footprints
-SS-12D07-VG4
-
-
-0
-3
-3
-VNA_Footprints
-4LayerCheck
-
-
-0
-0
-0
-VNA_Footprints
-8_uMAX
-
-
-0
-8
-8
-VNA_Footprints
-ASTXR-12
-
-
-0
-4
-4
-VNA_Footprints
-BEADC1608X95N
-BLM18KG_S
-Ferrite Bead
-0
-2
-2
-VNA_Footprints
-BoardTitle
-
-
-0
-0
-0
-VNA_Footprints
-CD542
-
-
-0
-6
-6
-VNA_Footprints
-FV1206
-
-
-0
-6
-4
-VNA_Footprints
-JoshDetails
-
-
-0
-0
-0
-VNA_Footprints
-MicroUSB_Aliexpress
-
-
-0
-11
-6
-VNA_Footprints
-OSHW_Logo_3.6x3.6_F.Mask
-
-
-0
-0
-0
-VNA_Footprints
-QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias
-16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
-QFN 0.5
-0
-26
-17
-VNA_Footprints
-QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.6mm_ThermalVias
-QFN, 24 Pin (https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-38
-25
-VNA_Footprints
-QFN-32-1EP_5x5mm_Pitch0.5mm_Thermal_Vias
-UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)
-QFN 0.5
-0
-45
-33
-VNA_Footprints
-SMA_EDGE_MOUNT
-http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
-SMA
-0
-5
-2
-VNA_Footprints
-SW_DIP_SPSTx02_Slide_KAE02LGGR
-SMD 2x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
-SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
-0
-4
-4
-VNA_Footprints
-SW_DIP_SPSTx08_Slide_9.9x21.7mm_W7.8mm_P2.54mm
-8x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x22.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-16
-16

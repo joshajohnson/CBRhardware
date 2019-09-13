@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SAO101)(type Legacy)(uri ${KIPRJMOD}/Libraries/SAO101.lib)(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name keyboard)(type Legacy)(uri ${KIPRJMOD}/Libraries/keyboard.lib)(options "")(descr ""))
+  (lib (name MacroKeyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/MacroKeyboard-rescue.lib)(options "")(descr ""))
+)
