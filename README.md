@@ -9,15 +9,14 @@ All skill levels welcome, and feel free to bring along any projects you are work
 
 If you have any suggestions about topics to discuss / changes to make, please get in touch.
 
-## 7/10/19 Topic: FPGA Workshop, continued. 
+## 28/10/19 Topic: FPGA Workshop, continued. 
 Following on from the WTFpga workshop, we will discuss some of the key details about FPGA function, programming, debugging, and hopefully explain some of the questions which arose at the previous workshop. 
 
 ### Future Events 
 
 |Date|Topic|
 |-|-|
-|7/10/19|More FPGA!|
-|11/11/19|Designing a low cost Vector Network Analyser|
+|28/10/19|More FPGA!|
 
 ### Past Events
 
