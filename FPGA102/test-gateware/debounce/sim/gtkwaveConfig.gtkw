@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Aug 29 06:44:06 2019
+[*]
+[dumpfile] "/home/josh/Documents/fpga/iCE40-feather/gateware/debounce/sim/debounce_tb.lxt"
+[dumpfile_mtime] "Thu Aug 29 06:42:51 2019"
+[dumpfile_size] 54785827
+[savefile] "/home/josh/Documents/fpga/iCE40-feather/gateware/debounce/sim/gtkwaveConfig.gtkw"
+[timestart] 37550000000
+[size] 2602 1713
+[pos] -1 -1
+*-33.931610 104730000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] debounce_tb.
+[treeopen] debounce_tb.inst_top.
+[sst_width] 378
+[signals_width] 342
+[sst_expanded] 1
+[sst_vpaned_height] 518
+@28
+debounce_tb.inst_top.clk[0]
+debounce_tb.inst_top.inst_clockDividerHz.dividedPulse[0]
+debounce_tb.inst_top.button[0]
+debounce_tb.inst_top.button_db[0]
+debounce_tb.inst_top.button_rising[0]
+debounce_tb.inst_top.button_falling[0]
+[pattern_trace] 1
+[pattern_trace] 0

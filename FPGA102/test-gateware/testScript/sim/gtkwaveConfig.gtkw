@@ -1,0 +1,47 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Jul 26 10:45:40 2019
+[*]
+[dumpfile] "/home/josh/Documents/fpga/iCE40-feather/gateware/testScript/sim/test_tb.lxt"
+[dumpfile_mtime] "Fri Jul 26 10:44:13 2019"
+[dumpfile_size] 11099239
+[savefile] "/home/josh/Documents/fpga/iCE40-feather/gateware/testScript/sim/gtkwaveConfig.gtkw"
+[timestart] 45026000000
+[size] 2602 1713
+[pos] -1 -1
+*-30.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_tb.
+[treeopen] test_tb.inst_top.
+[sst_width] 378
+[signals_width] 337
+[sst_expanded] 1
+[sst_vpaned_height] 518
+@28
+test_tb.clk[0]
+@22
+test_tb.inst_top.inst_clockDividerHertz.counter[31:0]
+@29
+test_tb.inst_top.inst_clockDividerHertz.dividedClk[0]
+@28
+test_tb.inst_top.IO_0[0]
+test_tb.inst_top.IO_1[0]
+test_tb.inst_top.IO_2[0]
+test_tb.inst_top.IO_3[0]
+test_tb.inst_top.IO_4[0]
+test_tb.inst_top.IO_5[0]
+test_tb.inst_top.IO_6[0]
+test_tb.inst_top.IO_7[0]
+test_tb.inst_top.IO_8[0]
+test_tb.inst_top.IO_9[0]
+test_tb.inst_top.IO_10[0]
+test_tb.inst_top.IO_11[0]
+test_tb.inst_top.IO_12[0]
+test_tb.inst_top.IO_13[0]
+test_tb.inst_top.IO_14[0]
+test_tb.inst_top.IO_15[0]
+test_tb.inst_top.IO_16[0]
+test_tb.inst_top.IO_17[0]
+test_tb.inst_top.IO_18[0]
+test_tb.inst_top.IO_19[0]
+[pattern_trace] 1
+[pattern_trace] 0

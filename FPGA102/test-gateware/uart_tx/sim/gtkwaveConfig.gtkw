@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Oct 25 05:41:33 2019
+[*]
+[dumpfile] "/home/josh/Documents/fpga/iCE40-feather/test-gateware/uart_tx/sim/uart_tx_tb.lxt"
+[dumpfile_mtime] "Fri Oct 25 05:41:29 2019"
+[dumpfile_size] 444842
+[savefile] "/home/josh/Documents/fpga/iCE40-feather/test-gateware/uart_tx/sim/gtkwaveConfig.gtkw"
+[timestart] 0
+[size] 2602 1713
+[pos] -1 -1
+*-28.702793 1407000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] uart_tx_tb.
+[sst_width] 378
+[signals_width] 342
+[sst_expanded] 1
+[sst_vpaned_height] 518
+@28
+uart_tx_tb.clk[0]
+@820
+uart_tx_tb.data[7:0]
+@2024
+^1 /home/josh/Documents/fpga/iCE40-feather/test-gateware/uart_tx/sim/state_enum.txt
+uart_tx_tb.inst_top.state[3:0]
+@28
+uart_tx_tb.uart_tx[0]
+uart_tx_tb.ready[0]
+uart_tx_tb.send[0]
+[pattern_trace] 1
+[pattern_trace] 0

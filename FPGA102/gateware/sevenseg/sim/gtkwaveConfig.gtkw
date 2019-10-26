@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Wed Aug  7 08:54:01 2019
+[*]
+[dumpfile] "/home/josh/Documents/fpga/iCE40-feather/gateware/sevenSeg/sim/sevenSeg_tb.lxt"
+[dumpfile_mtime] "Wed Aug  7 08:53:50 2019"
+[dumpfile_size] 1102053
+[savefile] "/home/josh/Documents/fpga/iCE40-feather/gateware/sevenSeg/sim/gtkwaveConfig.gtkw"
+[timestart] 0
+[size] 2602 1713
+[pos] -1 -1
+*-21.000000 5870000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sevenSeg_tb.
+[treeopen] sevenSeg_tb.inst_top.
+[sst_width] 378
+[signals_width] 308
+[sst_expanded] 1
+[sst_vpaned_height] 518
+@28
+sevenSeg_tb.inst_top.clk[0]
+sevenSeg_tb.inst_top.switch[0]
+@24
+sevenSeg_tb.inst_top.sw[7:0]
+@23
+sevenSeg_tb.inst_top.nibbleMS[3:0]
+@24
+sevenSeg_tb.inst_top.nibbleLS[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

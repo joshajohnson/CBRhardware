@@ -1,0 +1,93 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Oct 25 03:16:45 2019
+[*]
+[dumpfile] "/home/josh/Documents/fpga/iCE40-feather/test-gateware/char_disp/sim/char_disp_tb.lxt"
+[dumpfile_mtime] "Fri Oct 25 03:16:30 2019"
+[dumpfile_size] 110505
+[savefile] "/home/josh/Documents/fpga/iCE40-feather/test-gateware/char_disp/sim/gtkwaveConfig.gtkw"
+[timestart] 0
+[size] 2602 1713
+[pos] -1 -1
+*-19.702793 772000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] char_disp_tb.
+[sst_width] 378
+[signals_width] 389
+[sst_expanded] 1
+[sst_vpaned_height] 518
+@28
+char_disp_tb.clk[0]
+@820
+char_disp_tb.inst_top.data[7:0]
+@800028
+char_disp_tb.img[35:0]
+@c000a8
+#{char_disp_tb.img[0:5]} (35)char_disp_tb.img[35:0] (34)char_disp_tb.img[35:0] (33)char_disp_tb.img[35:0] (32)char_disp_tb.img[35:0] (31)char_disp_tb.img[35:0] (30)char_disp_tb.img[35:0]
+@28
+(30)char_disp_tb.img[35:0]
+(31)char_disp_tb.img[35:0]
+(32)char_disp_tb.img[35:0]
+(33)char_disp_tb.img[35:0]
+(34)char_disp_tb.img[35:0]
+(35)char_disp_tb.img[35:0]
+@1401200
+-group_end
+@c000a8
+#{char_disp_tb.img[6:11]} (29)char_disp_tb.img[35:0] (28)char_disp_tb.img[35:0] (27)char_disp_tb.img[35:0] (26)char_disp_tb.img[35:0] (25)char_disp_tb.img[35:0] (24)char_disp_tb.img[35:0]
+@28
+(24)char_disp_tb.img[35:0]
+(25)char_disp_tb.img[35:0]
+(26)char_disp_tb.img[35:0]
+(27)char_disp_tb.img[35:0]
+(28)char_disp_tb.img[35:0]
+(29)char_disp_tb.img[35:0]
+@1401200
+-group_end
+@c000a8
+#{char_disp_tb.img[12:17]} (23)char_disp_tb.img[35:0] (22)char_disp_tb.img[35:0] (21)char_disp_tb.img[35:0] (20)char_disp_tb.img[35:0] (19)char_disp_tb.img[35:0] (18)char_disp_tb.img[35:0]
+@28
+(18)char_disp_tb.img[35:0]
+(19)char_disp_tb.img[35:0]
+(20)char_disp_tb.img[35:0]
+(21)char_disp_tb.img[35:0]
+(22)char_disp_tb.img[35:0]
+(23)char_disp_tb.img[35:0]
+@1401200
+-group_end
+@c000a8
+#{char_disp_tb.img[18:23]} (17)char_disp_tb.img[35:0] (16)char_disp_tb.img[35:0] (15)char_disp_tb.img[35:0] (14)char_disp_tb.img[35:0] (13)char_disp_tb.img[35:0] (12)char_disp_tb.img[35:0]
+@28
+(12)char_disp_tb.img[35:0]
+(13)char_disp_tb.img[35:0]
+(14)char_disp_tb.img[35:0]
+(15)char_disp_tb.img[35:0]
+(16)char_disp_tb.img[35:0]
+(17)char_disp_tb.img[35:0]
+@1401200
+-group_end
+@c000a8
+#{char_disp_tb.img[24:29]} (11)char_disp_tb.img[35:0] (10)char_disp_tb.img[35:0] (9)char_disp_tb.img[35:0] (8)char_disp_tb.img[35:0] (7)char_disp_tb.img[35:0] (6)char_disp_tb.img[35:0]
+@28
+(6)char_disp_tb.img[35:0]
+(7)char_disp_tb.img[35:0]
+(8)char_disp_tb.img[35:0]
+(9)char_disp_tb.img[35:0]
+(10)char_disp_tb.img[35:0]
+(11)char_disp_tb.img[35:0]
+@1401200
+-group_end
+@c000a8
+#{char_disp_tb.img[30:35]} (5)char_disp_tb.img[35:0] (4)char_disp_tb.img[35:0] (3)char_disp_tb.img[35:0] (2)char_disp_tb.img[35:0] (1)char_disp_tb.img[35:0] (0)char_disp_tb.img[35:0]
+@28
+(0)char_disp_tb.img[35:0]
+(1)char_disp_tb.img[35:0]
+(2)char_disp_tb.img[35:0]
+(3)char_disp_tb.img[35:0]
+(4)char_disp_tb.img[35:0]
+(5)char_disp_tb.img[35:0]
+@1401200
+-group_end
+@1001200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

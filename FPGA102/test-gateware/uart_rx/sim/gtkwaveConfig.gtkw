@@ -1,0 +1,50 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Oct 25 05:44:50 2019
+[*]
+[dumpfile] "/home/josh/Documents/fpga/iCE40-feather/test-gateware/uart_rx/sim/uart_rx_tb.lxt"
+[dumpfile_mtime] "Fri Oct 25 05:44:12 2019"
+[dumpfile_size] 559350
+[savefile] "/home/josh/Documents/fpga/iCE40-feather/test-gateware/uart_rx/sim/gtkwaveConfig.gtkw"
+[timestart] 0
+[size] 2602 1713
+[pos] -1 -1
+*-28.000000 377000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] uart_rx_tb.
+[sst_width] 378
+[signals_width] 435
+[sst_expanded] 1
+[sst_vpaned_height] 518
+@28
+uart_rx_tb.clk[0]
+uart_rx_tb.rst[0]
+@c02023
+^1 /home/josh/Documents/fpga/iCE40-feather/test-gateware/uart_rx/sim/state_enum.txt
+uart_rx_tb.inst_top.state[3:0]
+@28
+(0)uart_rx_tb.inst_top.state[3:0]
+(1)uart_rx_tb.inst_top.state[3:0]
+(2)uart_rx_tb.inst_top.state[3:0]
+(3)uart_rx_tb.inst_top.state[3:0]
+@1401201
+-group_end
+@28
+uart_rx_tb.uart_rx[0]
+uart_rx_tb.inst_top.sample_now[0]
+@c00028
+uart_rx_tb.data[7:0]
+@28
+(0)uart_rx_tb.data[7:0]
+(1)uart_rx_tb.data[7:0]
+(2)uart_rx_tb.data[7:0]
+(3)uart_rx_tb.data[7:0]
+(4)uart_rx_tb.data[7:0]
+(5)uart_rx_tb.data[7:0]
+(6)uart_rx_tb.data[7:0]
+(7)uart_rx_tb.data[7:0]
+@1401200
+-group_end
+@28
+uart_rx_tb.ready[0]
+[pattern_trace] 1
+[pattern_trace] 0

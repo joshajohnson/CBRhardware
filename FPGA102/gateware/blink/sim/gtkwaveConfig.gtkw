@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Jul 26 10:30:37 2019
+[*]
+[dumpfile] "/home/josh/Documents/fpga/iCE40-feather/gateware/blink/sim/blink_tb.lxt"
+[dumpfile_mtime] "Fri Jul 26 10:30:15 2019"
+[dumpfile_size] 11062555
+[savefile] "/home/josh/Documents/fpga/iCE40-feather/gateware/blink/sim/gtkwaveConfig.gtkw"
+[timestart] 8816000
+[size] 2602 1713
+[pos] -1 -1
+*-18.000000 10038000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] blink_tb.
+[treeopen] blink_tb.inst_top.
+[sst_width] 378
+[signals_width] 342
+[sst_expanded] 1
+[sst_vpaned_height] 518
+@28
+blink_tb.inst_top.inst_clockDividerHz.rst[0]
+blink_tb.inst_top.inst_clockDividerHz.clk[0]
+@24
+blink_tb.inst_top.inst_clockDividerHz.counter[31:0]
+@28
+blink_tb.inst_top.inst_clockDividerHz.dividedClk[0]
+blink_tb.nLED_RED[0]
+blink_tb.inst_top.inst_clockDividerHz.dividedPulse[0]
+[pattern_trace] 1
+[pattern_trace] 0
