@@ -9,14 +9,14 @@ All skill levels welcome, and feel free to bring along any projects you are work
 
 If you have any suggestions about topics to discuss / changes to make, please get in touch.
 
-## 28/10/19 Topic: FPGA Workshop, continued. 
-Following on from the WTFpga workshop, we will discuss some of the key details about FPGA function, programming, debugging, and hopefully explain some of the questions which arose at the previous workshop. 
+## 11/11/19 - Test and Measurement
+An unprepared talk on the wonderful world which is electronic test and measurement, discussing common tools, how they work, pitfalls, where to cheap out, and Josh's unsuccessful attempt at designing a VNA.
 
 ### Future Events 
 
 |Date|Topic|
 |-|-|
-|28/10/19|More FPGA!|
+|11/11/19|Test and Measurement|
 
 ### Past Events
 
@@ -28,6 +28,7 @@ Following on from the WTFpga workshop, we will discuss some of the key details a
 |8/7/19|uC102: Embedded Communication Protocols / ADC|
 |12/8/19|Further PCB Design / Manufacturing / KiCad|
 |9/9/19|WTFpga Workshop|
+|28/10/19|More FPGA!|
 
 ## 8/4/19 - Intro to KiCad / How to design a PCB
 
@@ -82,3 +83,6 @@ We will also discuss tools and how to use them to achieve the above mentioned de
 Unlike most meetups where all you need to do is show up, this workshop will require software to be installed in advance and hardware to be acquired.
 
 Have a read of the [WTFpga Readme](WTFpga/README.md) and let Josh know if there are any questions.
+
+## 28/10/19 Topic: FPGA Workshop, continued. 
+Following on from the WTFpga workshop, we will discuss some of the key details about FPGA function, programming, debugging, and hopefully explain some of the questions which arose at the previous workshop. 
