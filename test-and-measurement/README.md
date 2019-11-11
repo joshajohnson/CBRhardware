@@ -6,7 +6,6 @@ An unprepared talk on the wonderful world which is electronic test and measureme
 [The Signal Path - Youtube](https://www.youtube.com/user/TheSignalPathBlog/videos)  
 [Keysight Labs - Youtube](https://www.youtube.com/user/KeysightOscilloscope/videos)  
 [James Lewis - Top of the P(acq)](https://www.youtube.com/watch?v=2clQfQnPMP0)  
-[Pete Bevelacqua - VNA Design](https://www.youtube.com/watch?v=HUAEG3R3qW4)  
 [Ted Yapo - Dealing with a cheap spectrum analyser](https://www.youtube.com/watch?v=aysnMPZaPD8)
 
 ### Recomended Videos
